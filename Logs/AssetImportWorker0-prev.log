@@ -1,0 +1,2281 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.17f1 (a4537701e4ab) revision 10769271'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 22000.282; Version 2009; 64bit' Language: 'en' Physical Memory: 16191 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.17f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/UnityProjects/legoexample
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+64931
+Successfully changed project path to: D:/UnityProjects/legoexample
+D:/UnityProjects/legoexample
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 56.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.17f1 (a4537701e4ab)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/UnityProjects/legoexample/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1080 (ID=0x1b80)
+    Vendor:   
+    VRAM:     8079 MB
+    Driver:   30.0.14.9613
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56012
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001284 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 60.96 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.958 seconds
+Domain Reload Profiling:
+	ReloadAssembly (959ms)
+		BeginReloadAssembly (52ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (454ms)
+			LoadAssemblies (49ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (168ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (181ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (61ms)
+				BeforeProcessingInitializeOnLoad (12ms)
+				ProcessInitializeOnLoadAttributes (76ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002517 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.154 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1155ms)
+		BeginReloadAssembly (141ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (951ms)
+			LoadAssemblies (79ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (308ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (416ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (102ms)
+				ProcessInitializeOnLoadAttributes (297ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.94 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2025 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.5 MB.
+System memory in use after: 93.6 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2461.
+Total: 4.647200 ms (FindLiveObjects: 0.213300 ms CreateObjectMapping: 0.134100 ms MarkObjects: 4.201200 ms  DeleteObjects: 0.097200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/LEGO/Prefabs/LEGO Behaviour Bricks/Win.prefab
+  artifactKey: Guid(ea265bc597495427489e129dab6e40fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Behaviour Bricks/Win.prefab using Guid(ea265bc597495427489e129dab6e40fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b05d12aae87f00aa62549d5b3897888') in 0.699818 seconds 
+  Import took 1.036598 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Behaviour Bricks/Shoot.prefab
+  artifactKey: Guid(64d1d089ce11e4eadaa32af6d2e3d1fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Behaviour Bricks/Shoot.prefab using Guid(64d1d089ce11e4eadaa32af6d2e3d1fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae5432649978696bcbf8ec2f97e23e43') in 0.024840 seconds 
+  Import took 0.037750 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000525 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Behaviour Bricks/Pickup.prefab
+  artifactKey: Guid(aabede6d086ed4135905ba95940a38b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Behaviour Bricks/Pickup.prefab using Guid(aabede6d086ed4135905ba95940a38b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a07a7162466582d4cf9f2165cfce1b2e') in 0.015179 seconds 
+  Import took 0.018735 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Behaviour Bricks/Counter.prefab
+  artifactKey: Guid(e091f61a413b7c443bcb03c9d0e2f23a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Behaviour Bricks/Counter.prefab using Guid(e091f61a413b7c443bcb03c9d0e2f23a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c0a55cb5ad28a3c1f033f90b5087a20') in 0.158930 seconds 
+  Import took 0.192880 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Behaviour Bricks/Look At.prefab
+  artifactKey: Guid(2e71bfa7eed3a41f788a600ef863e7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Behaviour Bricks/Look At.prefab using Guid(2e71bfa7eed3a41f788a600ef863e7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16e4978f7b3eef0623a2c0f7d7b6f761') in 0.034369 seconds 
+  Import took 0.037800 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000397 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Behaviour Bricks/Nearby Trigger.prefab
+  artifactKey: Guid(5073354b3112c48619a5a0a18f938ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Behaviour Bricks/Nearby Trigger.prefab using Guid(5073354b3112c48619a5a0a18f938ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffb39e207175bd044f26f484fdad669f') in 0.014762 seconds 
+  Import took 0.035680 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Behaviour Bricks/Counter Trigger.prefab
+  artifactKey: Guid(0ad34d748b0f8584ab90acec1c11f21f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Behaviour Bricks/Counter Trigger.prefab using Guid(0ad34d748b0f8584ab90acec1c11f21f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6d7f7a89bc53558c9a413c96596f920') in 0.028185 seconds 
+  Import took 0.032311 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Behaviour Bricks/Lose.prefab
+  artifactKey: Guid(455247ff710ea4752a3ebae0c04d375f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Behaviour Bricks/Lose.prefab using Guid(455247ff710ea4752a3ebae0c04d375f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e917c264854f37c3dfd866ddf95182d') in 0.047543 seconds 
+  Import took 0.068820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000410 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Behaviour Bricks/Explode.prefab
+  artifactKey: Guid(dec0a645588d04d8bb0ca99f70ffa743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Behaviour Bricks/Explode.prefab using Guid(dec0a645588d04d8bb0ca99f70ffa743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47b9d7dff837bba3aa90c34411d02bff') in 0.013067 seconds 
+  Import took 0.042037 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Behaviour Bricks/Random Trigger.prefab
+  artifactKey: Guid(02e3db666d57540848263b70239df2a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Behaviour Bricks/Random Trigger.prefab using Guid(02e3db666d57540848263b70239df2a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96771eb6baaeec491fa402dd77731c6e') in 0.014691 seconds 
+  Import took 0.018111 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Behaviour Bricks/Platform.prefab
+  artifactKey: Guid(57247d92339f745738d099ab710462e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Behaviour Bricks/Platform.prefab using Guid(57247d92339f745738d099ab710462e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54e37114198a1f2e9d03efb85734e78f') in 0.014882 seconds 
+  Import took 0.018851 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000364 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Behaviour Bricks/Input Trigger.prefab
+  artifactKey: Guid(0e1bf072a3aa3894b938ebe6a19490c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Behaviour Bricks/Input Trigger.prefab using Guid(0e1bf072a3aa3894b938ebe6a19490c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '185adbb3a67cdba713f0ec6a0ae1e410') in 0.031780 seconds 
+  Import took 0.035723 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Behaviour Bricks/Speak.prefab
+  artifactKey: Guid(d39f04291e3b341f78bf4cfa451accd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Behaviour Bricks/Speak.prefab using Guid(d39f04291e3b341f78bf4cfa451accd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e28a2f76fb55fa6c14a605c9a6ac1d9a') in 0.038822 seconds 
+  Import took 0.043096 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Behaviour Bricks/Audio.prefab
+  artifactKey: Guid(2811b6b17136449a6b4e9b435ea8a3a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Behaviour Bricks/Audio.prefab using Guid(2811b6b17136449a6b4e9b435ea8a3a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8ccda405f72929220b115ef19792070') in 0.012539 seconds 
+  Import took 0.023479 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Behaviour Bricks/Alive.prefab
+  artifactKey: Guid(14c411293fa3844dda7a44a1e006eb6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Behaviour Bricks/Alive.prefab using Guid(14c411293fa3844dda7a44a1e006eb6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c1c3a9942509b538ac862bae884901c') in 0.013803 seconds 
+  Import took 0.018030 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Behaviour Bricks/Control.prefab
+  artifactKey: Guid(30cbd9d88ad3ab74a88fe4f7b478c574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Behaviour Bricks/Control.prefab using Guid(30cbd9d88ad3ab74a88fe4f7b478c574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb3d49702a51ead48f135ed7c45f9f1d') in 0.046460 seconds 
+  Import took 0.067307 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Behaviour Bricks/Rotate.prefab
+  artifactKey: Guid(193f2c47f5132467f97398ef0049802e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Behaviour Bricks/Rotate.prefab using Guid(193f2c47f5132467f97398ef0049802e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1437d14f0e525eb012d9fb3b562952c') in 0.016328 seconds 
+  Import took 0.019792 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Behaviour Bricks/One Button.prefab
+  artifactKey: Guid(1f775bc2fdffc134e9c5098dc582ef5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Behaviour Bricks/One Button.prefab using Guid(1f775bc2fdffc134e9c5098dc582ef5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2d77b523b79f3f6f1137d58291afe3e') in 0.108479 seconds 
+  Import took 0.111809 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Behaviour Bricks/Elevator.prefab
+  artifactKey: Guid(498488446aa4c453ebfad8a187f1299a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Behaviour Bricks/Elevator.prefab using Guid(498488446aa4c453ebfad8a187f1299a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0a923572d8ac8e871169246a8e26f78') in 0.015050 seconds 
+  Import took 0.018698 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000377 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Behaviour Bricks/Spawn.prefab
+  artifactKey: Guid(2422d7b828ad14ec5b6ac73d80aeb92e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Behaviour Bricks/Spawn.prefab using Guid(2422d7b828ad14ec5b6ac73d80aeb92e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9441f4ae06db2cbe6f06d11c6b21966b') in 0.032046 seconds 
+  Import took 0.052460 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Behaviour Bricks/Touch Trigger.prefab
+  artifactKey: Guid(45a9e243fd71443c68c6819cdcac03de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Behaviour Bricks/Touch Trigger.prefab using Guid(45a9e243fd71443c68c6819cdcac03de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e5015963d29804e31e1521f73113005') in 0.013902 seconds 
+  Import took 0.026864 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Behaviour Bricks/Pickup Trigger.prefab
+  artifactKey: Guid(4b2cfe96b53144070b342371e0a54a06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Behaviour Bricks/Pickup Trigger.prefab using Guid(4b2cfe96b53144070b342371e0a54a06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d3396b1a2073e16ba6fbd91d5e8a4bd') in 0.034457 seconds 
+  Import took 0.038372 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Behaviour Bricks/Hazard.prefab
+  artifactKey: Guid(569d6da3692aa4c52814451a313b2732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Behaviour Bricks/Hazard.prefab using Guid(569d6da3692aa4c52814451a313b2732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a76a849cffed44a023ab5f9f03977c2b') in 0.014758 seconds 
+  Import took 0.018521 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Behaviour Bricks/Hover.prefab
+  artifactKey: Guid(ce1b1c9a8d68741c194647bf16ba5e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Behaviour Bricks/Hover.prefab using Guid(ce1b1c9a8d68741c194647bf16ba5e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '341279a8f976ad5038c10503edc358ef') in 0.013649 seconds 
+  Import took 0.017431 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Behaviour Bricks/Timer Trigger.prefab
+  artifactKey: Guid(ccb19a972be40420186b733280eba741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Behaviour Bricks/Timer Trigger.prefab using Guid(ccb19a972be40420186b733280eba741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '991a1c49d7185e8e97ab8f915fb89870') in 0.025934 seconds 
+  Import took 0.029276 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000394 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Behaviour Bricks/Move.prefab
+  artifactKey: Guid(5f90c7d3098fc4659b7fc9bb45df5fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Behaviour Bricks/Move.prefab using Guid(5f90c7d3098fc4659b7fc9bb45df5fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c6f50383930a5460e7821707a965ae8') in 0.485062 seconds 
+  Import took 0.488949 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 308.240522 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Models/Stone Structures/Altar.prefab
+  artifactKey: Guid(38f75548c0b324b2682cbad7b09fcecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Models/Stone Structures/Altar.prefab using Guid(38f75548c0b324b2682cbad7b09fcecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a23b5cf8a75e42cfa70cba093efa001') in 0.024981 seconds 
+  Import took 0.147734 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Models/Stone Structures/Platform.prefab
+  artifactKey: Guid(e34f65b5b181cba41b8d90f80c2ed876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Models/Stone Structures/Platform.prefab using Guid(e34f65b5b181cba41b8d90f80c2ed876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec1a670cf481a7bef6d87b6118c2dba5') in 0.063686 seconds 
+  Import took 0.077635 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000448 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Models/Stone Structures/Statue.prefab
+  artifactKey: Guid(4946d16faf3cffd4ca19b7db01cd4705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Models/Stone Structures/Statue.prefab using Guid(4946d16faf3cffd4ca19b7db01cd4705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59265f723a0923d0a57b658df6888aee') in 0.050556 seconds 
+  Import took 0.070345 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Models/Stone Structures/Column.prefab
+  artifactKey: Guid(81529e70f15846247b05a795f806f095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Models/Stone Structures/Column.prefab using Guid(81529e70f15846247b05a795f806f095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eff767f4600d12a4d80230938b528aa') in 0.022947 seconds 
+  Import took 0.027294 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Models/Stone Structures/Wall.prefab
+  artifactKey: Guid(aa5c15515bd83ac42a8f2dfb8cc7a4a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Models/Stone Structures/Wall.prefab using Guid(aa5c15515bd83ac42a8f2dfb8cc7a4a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63a9ef0dd154875d0a17c762a39d56cc') in 0.038161 seconds 
+  Import took 0.056002 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Models/Stone Structures/Bridge.prefab
+  artifactKey: Guid(99bc9e353294345e7abf5f30512bf8e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Models/Stone Structures/Bridge.prefab using Guid(99bc9e353294345e7abf5f30512bf8e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01ce52439206af4161c0365748f4239a') in 0.073237 seconds 
+  Import took 0.079088 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002381 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.012 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1012ms)
+		BeginReloadAssembly (93ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (864ms)
+			LoadAssemblies (72ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (278ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (362ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (94ms)
+				ProcessInitializeOnLoadAttributes (253ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1985 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.9 MB.
+System memory in use after: 96.1 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2471.
+Total: 3.995700 ms (FindLiveObjects: 0.180400 ms CreateObjectMapping: 0.087400 ms MarkObjects: 3.690900 ms  DeleteObjects: 0.035900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002713 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.935 seconds
+Domain Reload Profiling:
+	ReloadAssembly (935ms)
+		BeginReloadAssembly (100ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (780ms)
+			LoadAssemblies (72ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (246ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (341ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (88ms)
+				ProcessInitializeOnLoadAttributes (238ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1985 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.0 MB.
+System memory in use after: 96.1 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2473.
+Total: 3.186100 ms (FindLiveObjects: 0.181900 ms CreateObjectMapping: 0.056500 ms MarkObjects: 2.893800 ms  DeleteObjects: 0.027800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002429 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.086 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1087ms)
+		BeginReloadAssembly (101ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (925ms)
+			LoadAssemblies (81ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (278ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (412ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (106ms)
+				ProcessInitializeOnLoadAttributes (289ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1985 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.0 MB.
+System memory in use after: 96.1 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2475.
+Total: 4.038400 ms (FindLiveObjects: 0.294300 ms CreateObjectMapping: 0.094500 ms MarkObjects: 3.618400 ms  DeleteObjects: 0.029800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 674.107589 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Models/Characters/Alien.prefab
+  artifactKey: Guid(3b69f35b5c82fed44851cf9359486c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Models/Characters/Alien.prefab using Guid(3b69f35b5c82fed44851cf9359486c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ec0434de317726d8edb506b94bfbf6a') in 0.347200 seconds 
+  Import took 0.373709 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000373 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Models/Characters/Galo.prefab
+  artifactKey: Guid(e3e699aed59724e4b960325459cf8173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Models/Characters/Galo.prefab using Guid(e3e699aed59724e4b960325459cf8173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cd67dc30961849236864a7d195e7b65') in 0.434008 seconds 
+  Import took 0.464031 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Models/Characters/Pirate.prefab
+  artifactKey: Guid(b2cbcbfe568fd4abdab1576c36c09c16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Models/Characters/Pirate.prefab using Guid(b2cbcbfe568fd4abdab1576c36c09c16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31f4a43d9f7b9b0f2ae6d7f922c4602f') in 0.066333 seconds 
+  Import took 0.071727 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000352 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Models/Characters/Dr Pato.prefab
+  artifactKey: Guid(a05afb62c04ea4ee98923cc3ea43b78d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Models/Characters/Dr Pato.prefab using Guid(a05afb62c04ea4ee98923cc3ea43b78d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e5e75c326dec713dd0ddce19a02ddbe') in 0.044712 seconds 
+  Import took 0.106804 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Models/Characters/Javali Jax.prefab
+  artifactKey: Guid(bf8f044ecf3ad4a5f95b2931bc908aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Models/Characters/Javali Jax.prefab using Guid(bf8f044ecf3ad4a5f95b2931bc908aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05555b7516ee05a66bb0788c6fa3d9da') in 0.140774 seconds 
+  Import took 0.167979 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000372 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Models/Characters/Panda.prefab
+  artifactKey: Guid(dd2ac158d80154bcf8db5010cab2894e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Models/Characters/Panda.prefab using Guid(dd2ac158d80154bcf8db5010cab2894e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fe1293daf44f6f61a3a995233257cd2') in 0.402749 seconds 
+  Import took 0.435747 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Models/Characters/Gnome.prefab
+  artifactKey: Guid(e6772116bbcc7cc4d99f0f86f915d7b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Models/Characters/Gnome.prefab using Guid(e6772116bbcc7cc4d99f0f86f915d7b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a7879e18057cdb133994d7eee36fc50') in 0.036843 seconds 
+  Import took 0.051012 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Models/Characters/Mini Hippo.prefab
+  artifactKey: Guid(011d347399a2f3243ac77c0b1128e4cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Models/Characters/Mini Hippo.prefab using Guid(011d347399a2f3243ac77c0b1128e4cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f9bbac7453608fac6812e7637db2be0') in 0.040453 seconds 
+  Import took 0.046062 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Models/Characters/Mogosaur.prefab
+  artifactKey: Guid(c5a354bab27bb3e4eb8dcf9888b9d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Models/Characters/Mogosaur.prefab using Guid(c5a354bab27bb3e4eb8dcf9888b9d202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '827c67110e5996ebf316b5e10f0bffc8') in 0.042351 seconds 
+  Import took 0.053712 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000384 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Models/Characters/Giraffe.prefab
+  artifactKey: Guid(484e9cbf2731244a89d30096e1ec9bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Models/Characters/Giraffe.prefab using Guid(484e9cbf2731244a89d30096e1ec9bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ffe156d012be0da7ff06c75d5c55f7c') in 0.106527 seconds 
+  Import took 0.548240 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Models/Characters/Brewer.prefab
+  artifactKey: Guid(04d2e5b05d07643b7aff83683668e6e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Models/Characters/Brewer.prefab using Guid(04d2e5b05d07643b7aff83683668e6e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85a7a7a696408e573a795cb15cfc9fc9') in 0.090137 seconds 
+  Import took 0.095415 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Models/Characters/Golem.prefab
+  artifactKey: Guid(e9a8254f33877477c91a2eb9da7d3049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Models/Characters/Golem.prefab using Guid(e9a8254f33877477c91a2eb9da7d3049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21907d173a538925b14982c223e12d2a') in 0.246027 seconds 
+  Import took 0.272487 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Models/Characters/Wizard.prefab
+  artifactKey: Guid(b3c71fee3db584dd9b6011fb2b044215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Models/Characters/Wizard.prefab using Guid(b3c71fee3db584dd9b6011fb2b044215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b39bb65b2f7b8ea24976c2676e9eafea') in 0.042987 seconds 
+  Import took 0.056830 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002420 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.985 seconds
+Domain Reload Profiling:
+	ReloadAssembly (986ms)
+		BeginReloadAssembly (109ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (819ms)
+			LoadAssemblies (80ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (264ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (349ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (93ms)
+				ProcessInitializeOnLoadAttributes (242ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1985 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.6 MB.
+System memory in use after: 99.7 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2478.
+Total: 3.575700 ms (FindLiveObjects: 0.282700 ms CreateObjectMapping: 0.076300 ms MarkObjects: 3.187000 ms  DeleteObjects: 0.028500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 281.870314 seconds.
+  path: Assets/LEGO/Models/Minifig.fbx
+  artifactKey: Guid(81c090246952449b7afa82f80664fc4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Models/Minifig.fbx using Guid(81c090246952449b7afa82f80664fc4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9957c352339bf8aab160c7de4fd9f7e0') in 0.470159 seconds 
+  Import took 0.474167 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000405 seconds.
+  path: Assets/LEGO/Models/Rock 2.fbx
+  artifactKey: Guid(19027613b79ac1247a8e92ee1aecac14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Models/Rock 2.fbx using Guid(19027613b79ac1247a8e92ee1aecac14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2749cb18eba87c85dbdf58d23fe4c6fe') in 0.040368 seconds 
+  Import took 0.058809 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000505 seconds.
+  path: Assets/LEGO/Models/Rock 1.fbx
+  artifactKey: Guid(d09f36832543bf94f9c2516a58aeeddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Models/Rock 1.fbx using Guid(d09f36832543bf94f9c2516a58aeeddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80407c5509da17dbcaf464cef2a736ee') in 0.013316 seconds 
+  Import took 0.017350 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000498 seconds.
+  path: Assets/LEGO/Models/Rock 3.fbx
+  artifactKey: Guid(fb01d3c33168979499e56ab08875e85a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Models/Rock 3.fbx using Guid(fb01d3c33168979499e56ab08875e85a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccfe162c0337106c999cf78f37276355') in 0.012929 seconds 
+  Import took 0.016474 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.275606 seconds.
+  path: Assets/LEGO/Materials/Environment/Day Fog.mat
+  artifactKey: Guid(8653923df740d704c9cbccac8ca81959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Materials/Environment/Day Fog.mat using Guid(8653923df740d704c9cbccac8ca81959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44c8cb631092f310404e75eb9f1a3a58') in 0.014014 seconds 
+  Import took 0.042823 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/LEGO/Materials/Environment/Grid.mat
+  artifactKey: Guid(e853b4fad94da4328bb41a083b716cf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Materials/Environment/Grid.mat using Guid(e853b4fad94da4328bb41a083b716cf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd555fa28f43517c3a7361679cd6839e') in 0.027558 seconds 
+  Import took 0.049414 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/LEGO/Materials/Environment/Rock Medium.mat
+  artifactKey: Guid(1e8adcd5cc94741b99f7e78dd63e0e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Materials/Environment/Rock Medium.mat using Guid(1e8adcd5cc94741b99f7e78dd63e0e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37aea83f1733c66bb9a53f27ed1e6f4f') in 0.015529 seconds 
+  Import took 0.030756 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000383 seconds.
+  path: Assets/LEGO/Materials/Environment/Mountain.mat
+  artifactKey: Guid(01e90780483269740ab9301b762705f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Materials/Environment/Mountain.mat using Guid(01e90780483269740ab9301b762705f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '687d3834d76a6296f5d81777976eb564') in 0.008051 seconds 
+  Import took 0.014273 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000394 seconds.
+  path: Assets/LEGO/Materials/Environment/Rock Light.mat
+  artifactKey: Guid(d51afecd4eeec438b8f1ce1b571c6619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Materials/Environment/Rock Light.mat using Guid(d51afecd4eeec438b8f1ce1b571c6619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7509c8468a2ee06fc1834a4d40e84d8c') in 0.008757 seconds 
+  Import took 0.011919 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/LEGO/Materials/Environment/Rock Dark.mat
+  artifactKey: Guid(9eaf716b17a4e47f782f6a16a3089686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Materials/Environment/Rock Dark.mat using Guid(9eaf716b17a4e47f782f6a16a3089686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10cf41ee7621c94306a1569b1dfbf7af') in 0.008986 seconds 
+  Import took 0.017826 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.629285 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Models/Brick Collections/Cool Bricks.prefab
+  artifactKey: Guid(20ab5867c8d3d4ba983890cd90b6a7be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Models/Brick Collections/Cool Bricks.prefab using Guid(20ab5867c8d3d4ba983890cd90b6a7be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01b259a2921b2aa2821cb410c926d198') in 0.298157 seconds 
+  Import took 0.310139 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Models/Brick Collections/Starter Bricks.prefab
+  artifactKey: Guid(fd2b330f471624a30ae9c6428f056843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Models/Brick Collections/Starter Bricks.prefab using Guid(fd2b330f471624a30ae9c6428f056843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69e30a03e9b8a1f06cbe56f7eeb422af') in 0.052207 seconds 
+  Import took 0.057501 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.690398 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Models/Buildings/Fence.prefab
+  artifactKey: Guid(08f194e70e6666c4d91b53a8fdc85470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Models/Buildings/Fence.prefab using Guid(08f194e70e6666c4d91b53a8fdc85470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af574121207abe9f4681e018ae5a4bd3') in 0.268642 seconds 
+  Import took 0.498995 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000432 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Models/Buildings/Temple.prefab
+  artifactKey: Guid(6f58d2fd99f634648880f0df7a97dc3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Models/Buildings/Temple.prefab using Guid(6f58d2fd99f634648880f0df7a97dc3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '678910bf718e52ddbd83cdbaaa76ce6d') in 0.471930 seconds 
+  Import took 0.498377 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000380 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Models/Buildings/Tower.prefab
+  artifactKey: Guid(87752d9de0a7b5e4886a0fc1c8d64c1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Models/Buildings/Tower.prefab using Guid(87752d9de0a7b5e4886a0fc1c8d64c1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bf51f436a23e319a4eefab17c15ff62') in 0.099694 seconds 
+  Import took 0.108173 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.005413 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Models/Contraptions/Button Action.prefab
+  artifactKey: Guid(641d602a4f7ad40538dda2ef1b094be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Models/Contraptions/Button Action.prefab using Guid(641d602a4f7ad40538dda2ef1b094be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a73fc3d945cef27431c1ec9a119677df') in 0.117461 seconds 
+  Import took 0.121781 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000382 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Models/Contraptions/Button Arrow.prefab
+  artifactKey: Guid(784450df57adc46eab121e0afc3951d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Models/Contraptions/Button Arrow.prefab using Guid(784450df57adc46eab121e0afc3951d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a783b67b3f5346162038f9fc03c90f5') in 0.106323 seconds 
+  Import took 0.132808 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000405 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Models/Contraptions/Cannon.prefab
+  artifactKey: Guid(7c664b531d27b440f9cd941fb0c3afb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Models/Contraptions/Cannon.prefab using Guid(7c664b531d27b440f9cd941fb0c3afb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b49c7075d7f3746d2cf40120a7698a43') in 0.636797 seconds 
+  Import took 0.664224 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000409 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Models/Contraptions/Console.prefab
+  artifactKey: Guid(00485fc7a1a3d4fe2943950849eacd0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Models/Contraptions/Console.prefab using Guid(00485fc7a1a3d4fe2943950849eacd0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f642bb18266060fbaa24c365b7b85e6c') in 0.051610 seconds 
+  Import took 0.056331 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000376 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Models/Contraptions/Cage.prefab
+  artifactKey: Guid(a081f6d2ca2234ce9b6b487e63805de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Models/Contraptions/Cage.prefab using Guid(a081f6d2ca2234ce9b6b487e63805de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a26a0737d82e56660e67285e6243314c') in 0.248684 seconds 
+  Import took 0.305597 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000389 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Models/Contraptions/Elevator.prefab
+  artifactKey: Guid(cf81ef10970270a45ab1f3c5bbbdff9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Models/Contraptions/Elevator.prefab using Guid(cf81ef10970270a45ab1f3c5bbbdff9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '772b90b172adc8d745785c986bcb9947') in 0.085550 seconds 
+  Import took 0.091329 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Models/Contraptions/Jukebox.prefab
+  artifactKey: Guid(b0a3ca1d22253443c9c359be6add26eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Models/Contraptions/Jukebox.prefab using Guid(b0a3ca1d22253443c9c359be6add26eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1542767e190155cfa5c81d4e2e7e6757') in 0.123013 seconds 
+  Import took 0.152957 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Models/Contraptions/Evil Machine.prefab
+  artifactKey: Guid(6cea08cf6cc064515a4a34c0ec041639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Models/Contraptions/Evil Machine.prefab using Guid(6cea08cf6cc064515a4a34c0ec041639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ca4be3bca50ac59c2d51317846e6f3f') in 0.205638 seconds 
+  Import took 0.235380 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Models/Contraptions/Treasure Chest.prefab
+  artifactKey: Guid(90fcab019a59446f9831ce5eb05000d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Models/Contraptions/Treasure Chest.prefab using Guid(90fcab019a59446f9831ce5eb05000d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f0a3773550f6c0375cd3fb8edb1c17d') in 0.555001 seconds 
+  Import took 0.576478 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.884790 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Projectiles/Arrow.prefab
+  artifactKey: Guid(054cfbc98691e4a7f87913e2bf62d522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Projectiles/Arrow.prefab using Guid(054cfbc98691e4a7f87913e2bf62d522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0e940b985ddc5ecbee93d3901b8a513') in 0.109784 seconds 
+  Import took 0.113304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000344 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Projectiles/Cannonball.prefab
+  artifactKey: Guid(3af4bfec8b7f648799fc51246a995e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Projectiles/Cannonball.prefab using Guid(3af4bfec8b7f648799fc51246a995e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f3e87266a7602d73727d94d62c6a173') in 0.011418 seconds 
+  Import took 0.035138 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Projectiles/Laser Beam.prefab
+  artifactKey: Guid(114496ea6de0e4bc7860a490da1844df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Projectiles/Laser Beam.prefab using Guid(114496ea6de0e4bc7860a490da1844df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8192fc4928ff96a29a2d7013f5e6f5a7') in 0.046357 seconds 
+  Import took 0.049775 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.823678 seconds.
+  path: Assets/LEGO/Prefabs/Setup/Event System.prefab
+  artifactKey: Guid(9b45fc46c53dbe948adedf5a4f88583c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/Setup/Event System.prefab using Guid(9b45fc46c53dbe948adedf5a4f88583c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b27237bea539f04913b0f616efecf6f4') in 0.069380 seconds 
+  Import took 0.072970 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000396 seconds.
+  path: Assets/LEGO/Prefabs/Setup/Game Manager.prefab
+  artifactKey: Guid(cc1e3f9715798ea4fab9885b641b3752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/Setup/Game Manager.prefab using Guid(cc1e3f9715798ea4fab9885b641b3752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fe896a8fdc70f31e68fecadda3c803e') in 0.006026 seconds 
+  Import took 0.009101 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.003445 seconds.
+  path: Assets/LEGO/Prefabs/UI/Controls.prefab
+  artifactKey: Guid(6b23e1fc73ddf414eb915223522f6e6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/UI/Controls.prefab using Guid(6b23e1fc73ddf414eb915223522f6e6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ce9e1854da9251fe2fed5a067439c17') in 0.059012 seconds 
+  Import took 0.093120 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/LEGO/Prefabs/UI/Objective Win.prefab
+  artifactKey: Guid(66bfd05a811428e45addf6e9490739f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/UI/Objective Win.prefab using Guid(66bfd05a811428e45addf6e9490739f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddbc08dd39ca2062499c55541a66e818') in 0.045380 seconds 
+  Import took 0.072777 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000389 seconds.
+  path: Assets/LEGO/Prefabs/UI/Objective Lose.prefab
+  artifactKey: Guid(dca83278894394a75b97fc8f54bd18c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/UI/Objective Lose.prefab using Guid(dca83278894394a75b97fc8f54bd18c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d1599a87e309df6b91e06b33c852fb4') in 0.024366 seconds 
+  Import took 0.032830 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000400 seconds.
+  path: Assets/LEGO/Prefabs/UI/Game HUD.prefab
+  artifactKey: Guid(68ea2f971bec30347ad00bc8f4e78891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/UI/Game HUD.prefab using Guid(68ea2f971bec30347ad00bc8f4e78891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1363fa833f0edd89fe823e1c0353b0f') in 0.023792 seconds 
+  Import took 0.027605 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000400 seconds.
+  path: Assets/LEGO/Prefabs/UI/Game Over Fade.prefab
+  artifactKey: Guid(bb4f358a5a93842cb90ba7990ad71f86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/UI/Game Over Fade.prefab using Guid(bb4f358a5a93842cb90ba7990ad71f86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2622bd0b4073e4b97742c5b265d780b') in 0.004820 seconds 
+  Import took 0.007965 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/LEGO/Prefabs/UI/Input Prompt.prefab
+  artifactKey: Guid(35eacb06a69ff44438ed7eb355e722c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/UI/Input Prompt.prefab using Guid(35eacb06a69ff44438ed7eb355e722c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fb3b43c3a8b0ac2d4016dabbee4a010') in 0.020030 seconds 
+  Import took 0.023704 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000354 seconds.
+  path: Assets/LEGO/Prefabs/UI/Options Menu.prefab
+  artifactKey: Guid(86685caf5e2e2624090d70b416c7c171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/UI/Options Menu.prefab using Guid(86685caf5e2e2624090d70b416c7c171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18e51b3a715b007833fadd229e81aabd') in 0.040456 seconds 
+  Import took 0.044319 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000364 seconds.
+  path: Assets/LEGO/Prefabs/UI/Speech Bubble Prompt.prefab
+  artifactKey: Guid(8f2336181d72ea740bdf64bb1cd14b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/UI/Speech Bubble Prompt.prefab using Guid(8f2336181d72ea740bdf64bb1cd14b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae34e3d9c0861a439428230e942d1b54') in 0.025325 seconds 
+  Import took 0.028722 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.131806 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Models/Plants/Bamboo.prefab
+  artifactKey: Guid(867b8f528b39f4a138438678aee738a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Models/Plants/Bamboo.prefab using Guid(867b8f528b39f4a138438678aee738a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2979f6874c6bce22f98b5d885c6f4acb') in 0.464790 seconds 
+  Import took 0.490417 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Models/Plants/Palm.prefab
+  artifactKey: Guid(c111561bb9ed29845910ea93b36ddd04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Models/Plants/Palm.prefab using Guid(c111561bb9ed29845910ea93b36ddd04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efe3668da8000520f4cf9c63f6ae70dd') in 0.029777 seconds 
+  Import took 0.039318 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Models/Plants/Cactus.prefab
+  artifactKey: Guid(50fea28fbd3734e49a8840fa067a25b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Models/Plants/Cactus.prefab using Guid(50fea28fbd3734e49a8840fa067a25b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd94006332e193c05ada0479c12673d5f') in 0.035218 seconds 
+  Import took 0.041339 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Models/Plants/Berries.prefab
+  artifactKey: Guid(99e5b0c76ad47db429d93097d87d82e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Models/Plants/Berries.prefab using Guid(99e5b0c76ad47db429d93097d87d82e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dc78413a236ec8dd6628611a58347e5') in 0.023900 seconds 
+  Import took 0.028095 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Models/Plants/Shrub.prefab
+  artifactKey: Guid(42b8312502cbceb4eab2f6b6f2eca188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Models/Plants/Shrub.prefab using Guid(42b8312502cbceb4eab2f6b6f2eca188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd65683e647bab8d306b0ac6f73f1658c') in 0.019686 seconds 
+  Import took 0.023718 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Models/Plants/Berries.prefab
+  artifactKey: Guid(99e5b0c76ad47db429d93097d87d82e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Models/Plants/Berries.prefab using Guid(99e5b0c76ad47db429d93097d87d82e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dc78413a236ec8dd6628611a58347e5') in 0.022981 seconds 
+  Import took 0.026827 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Models/Plants/Shrub.prefab
+  artifactKey: Guid(42b8312502cbceb4eab2f6b6f2eca188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Models/Plants/Shrub.prefab using Guid(42b8312502cbceb4eab2f6b6f2eca188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd65683e647bab8d306b0ac6f73f1658c') in 0.019095 seconds 
+  Import took 0.023074 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Models/Plants/Flowers.prefab
+  artifactKey: Guid(a2ae65e677db2464facf7097a46294c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Models/Plants/Flowers.prefab using Guid(a2ae65e677db2464facf7097a46294c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0ec6e8c7863570a337b8899eae052b8') in 0.025603 seconds 
+  Import took 0.030014 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.668895 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Models/Pickups/Crab.prefab
+  artifactKey: Guid(0d50e868a16ca4d13b69fcd194a0d213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Models/Pickups/Crab.prefab using Guid(0d50e868a16ca4d13b69fcd194a0d213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e15a663a19642f05490f1358462ef650') in 0.029842 seconds 
+  Import took 0.033240 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Models/Pickups/Crystal.prefab
+  artifactKey: Guid(41d58ec482a3e4bddac6c8e0044f5826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Models/Pickups/Crystal.prefab using Guid(41d58ec482a3e4bddac6c8e0044f5826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '098a8e37aa694b425600380515698277') in 0.018759 seconds 
+  Import took 0.023370 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000403 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Models/Pickups/Fruit.prefab
+  artifactKey: Guid(37c756c1cd2f44b739bcd32b884951b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Models/Pickups/Fruit.prefab using Guid(37c756c1cd2f44b739bcd32b884951b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a7ad5c3729879f7dd0be839bb4d94da') in 0.025097 seconds 
+  Import took 0.041763 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.647745 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Models/Environment/Boulder Medium.prefab
+  artifactKey: Guid(5d14e1538a936344e9aa65df5b6acc91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Models/Environment/Boulder Medium.prefab using Guid(5d14e1538a936344e9aa65df5b6acc91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '442740decf3302500eeb9a6c5f55d796') in 0.035242 seconds 
+  Import took 0.061204 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Models/Environment/Rock Small.prefab
+  artifactKey: Guid(9b5ef99c3ad5c114abfaf82db1fc8e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Models/Environment/Rock Small.prefab using Guid(9b5ef99c3ad5c114abfaf82db1fc8e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25e91c485a19cbe656c324349d04cc9a') in 0.048172 seconds 
+  Import took 0.052449 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000367 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Models/Environment/Shells.prefab
+  artifactKey: Guid(a538e1206ac12bf449140d88748b2a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Models/Environment/Shells.prefab using Guid(a538e1206ac12bf449140d88748b2a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '923f89dbba522d91b5e6bbffcc18e519') in 0.025382 seconds 
+  Import took 0.029728 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Models/Environment/Boulder Small.prefab
+  artifactKey: Guid(e3731e78348cf4a2fbf6cfdaf610c9b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Models/Environment/Boulder Small.prefab using Guid(e3731e78348cf4a2fbf6cfdaf610c9b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd86d2af57505588a570f835fef4e21be') in 0.026684 seconds 
+  Import took 0.031223 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Models/Environment/Mountain.prefab
+  artifactKey: Guid(79a95c1cb344f4ec18886bbe4bcdae7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Models/Environment/Mountain.prefab using Guid(79a95c1cb344f4ec18886bbe4bcdae7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd07f060603707e53c9971109f645d451') in 0.127731 seconds 
+  Import took 0.139224 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Models/Environment/Rubble.prefab
+  artifactKey: Guid(311b13514547deb48ab4970730902151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Models/Environment/Rubble.prefab using Guid(311b13514547deb48ab4970730902151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3abb631de37aaa26992113a8fcdcc197') in 0.023080 seconds 
+  Import took 0.028651 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Models/Environment/Skull Rock.prefab
+  artifactKey: Guid(148ac7348621a423ba331c7a7139e90d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Models/Environment/Skull Rock.prefab using Guid(148ac7348621a423ba331c7a7139e90d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c42625c9c277cea1cfbfa1344032c850') in 1.156570 seconds 
+  Import took 1.205206 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000389 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Models/Environment/Rock Medium.prefab
+  artifactKey: Guid(05a71a24f04df6b4c8916c721b9e96cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Models/Environment/Rock Medium.prefab using Guid(05a71a24f04df6b4c8916c721b9e96cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9ae92ea89114d257a1bd0f109d9b11d') in 0.027730 seconds 
+  Import took 0.032015 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.263790 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Minifigs/Adventurer.prefab
+  artifactKey: Guid(934668409d4904809a1489b29640e933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Minifigs/Adventurer.prefab using Guid(934668409d4904809a1489b29640e933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a8c97e0396000213e897e9c9e153ef8') in 0.678590 seconds 
+  Import took 0.688844 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Minifigs/Pirate.prefab
+  artifactKey: Guid(6b29134dff99b4b5c89eceee36fbb95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Minifigs/Pirate.prefab using Guid(6b29134dff99b4b5c89eceee36fbb95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '245146280a25c8a93325b38dd7e14288') in 1.038828 seconds 
+  Import took 1.070700 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000408 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Minifigs/Astronaut.prefab
+  artifactKey: Guid(1f174dd798c1d408a9b88ca831df4ac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Minifigs/Astronaut.prefab using Guid(1f174dd798c1d408a9b88ca831df4ac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26bdabe01f907767d0c6e9bdf42810cd') in 0.121430 seconds 
+  Import took 0.131770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000408 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Minifigs/Pizza Boy.prefab
+  artifactKey: Guid(422c298e5edde4efeb679ddef8883c33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Minifigs/Pizza Boy.prefab using Guid(422c298e5edde4efeb679ddef8883c33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19e91b0d0a4f7ce8f4e92d283b411e78') in 0.151459 seconds 
+  Import took 0.162296 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000391 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Minifigs/One Button Astronaut.prefab
+  artifactKey: Guid(a406d8b47c897e64ab2237997389da83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Minifigs/One Button Astronaut.prefab using Guid(a406d8b47c897e64ab2237997389da83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef430326224217d31d8e81c986f13a1b') in 0.121256 seconds 
+  Import took 0.131841 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000393 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Minifigs/One Button Pizza Boy.prefab
+  artifactKey: Guid(f404664eaa5d66a4ca04b24672149c1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Minifigs/One Button Pizza Boy.prefab using Guid(f404664eaa5d66a4ca04b24672149c1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5877547d53f8eec040c52e90cde77a15') in 0.120005 seconds 
+  Import took 0.130519 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000380 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Minifigs/One Button Adventurer.prefab
+  artifactKey: Guid(c20b4674481d554449eb8192465c813b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Minifigs/One Button Adventurer.prefab using Guid(c20b4674481d554449eb8192465c813b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d75016adfd59770d11c6ff6d9f4da61') in 0.127949 seconds 
+  Import took 0.138789 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000385 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Minifigs/One Button Pirate.prefab
+  artifactKey: Guid(bdb4a2f1ae726b7409b48daef917e70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Minifigs/One Button Pirate.prefab using Guid(bdb4a2f1ae726b7409b48daef917e70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e34fa9b82104a795742aed7c4b7b2253') in 0.115669 seconds 
+  Import took 0.125698 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.397817 seconds.
+  path: Assets/LEGO/Prefabs/Effects/Bubble.prefab
+  artifactKey: Guid(eadbd69425cf444e0bb4b35e085c0b37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/Effects/Bubble.prefab using Guid(eadbd69425cf444e0bb4b35e085c0b37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6119a831a6d0c66a29d6e45509f9f3ba') in 0.038156 seconds 
+  Import took 0.041647 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000385 seconds.
+  path: Assets/LEGO/Prefabs/Effects/Skull.prefab
+  artifactKey: Guid(173b64c55a438417294f0118f8fc367b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/Effects/Skull.prefab using Guid(173b64c55a438417294f0118f8fc367b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e14d8879aadbb44e2df2eb4ff88f026') in 0.078656 seconds 
+  Import took 0.081655 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000366 seconds.
+  path: Assets/LEGO/Prefabs/Effects/Spark.prefab
+  artifactKey: Guid(19de9a2b940424ed79c1bbf02617bf08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/Effects/Spark.prefab using Guid(19de9a2b940424ed79c1bbf02617bf08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '422fe5eb7f0435e0800ddcbb919024ed') in 0.010510 seconds 
+  Import took 0.030078 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/LEGO/Prefabs/Effects/Sparkle.prefab
+  artifactKey: Guid(b096279cf46d9461fb5f199c8d5fde6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/Effects/Sparkle.prefab using Guid(b096279cf46d9461fb5f199c8d5fde6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c2b54a1b79eef15425a7d6dedbee53c') in 0.008598 seconds 
+  Import took 0.011965 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/LEGO/Prefabs/Effects/Smoke.prefab
+  artifactKey: Guid(9c4fe1be4a9db448fbd3a52c5abdaab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/Effects/Smoke.prefab using Guid(9c4fe1be4a9db448fbd3a52c5abdaab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78ff00d6f214af62299b21e6e6c2671f') in 0.009189 seconds 
+  Import took 0.012658 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.738407 seconds.
+  path: Assets/LEGO/Prefabs/Camera/Player Virtual Camera.prefab
+  artifactKey: Guid(5a06dfbfd61f30d43b10055b6f2b51cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/Camera/Player Virtual Camera.prefab using Guid(5a06dfbfd61f30d43b10055b6f2b51cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04bd5619574be6f6155a6da9f7aed525') in 0.059688 seconds 
+  Import took 0.080598 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000415 seconds.
+  path: Assets/LEGO/Prefabs/Camera/ThirdPersonFreeLookCamera.prefab
+  artifactKey: Guid(7760cce19732e194e9bf2b10175a5eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/Camera/ThirdPersonFreeLookCamera.prefab using Guid(7760cce19732e194e9bf2b10175a5eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bff46a518ce5c7fb2035134f0ca933ff') in 0.036920 seconds 
+  Import took 0.039882 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.357451 seconds.
+  path: Assets/LEGO/Materials/LEGO Behaviour Icons/Alive Action Side.mat
+  artifactKey: Guid(22f6c22676043440790e643f7f320781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Materials/LEGO Behaviour Icons/Alive Action Side.mat using Guid(22f6c22676043440790e643f7f320781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9b3b361e361eba5cf381b304a35e597') in 0.008575 seconds 
+  Import took 0.012083 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000344 seconds.
+  path: Assets/LEGO/Materials/LEGO Behaviour Icons/Rotate Action Side.mat
+  artifactKey: Guid(e5f41d261f2394b95b885b51f2a244c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Materials/LEGO Behaviour Icons/Rotate Action Side.mat using Guid(e5f41d261f2394b95b885b51f2a244c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e4a8393275cc698f5af0660278eff18') in 0.118345 seconds 
+  Import took 0.333244 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000400 seconds.
+  path: Assets/LEGO/Materials/LEGO Behaviour Icons/Win Action Side.mat
+  artifactKey: Guid(ded2ef47b2cd842238af067566357b3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Materials/LEGO Behaviour Icons/Win Action Side.mat using Guid(ded2ef47b2cd842238af067566357b3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9c4c46338a5e4c3f3a37fbbc6b1e013') in 0.008380 seconds 
+  Import took 0.011378 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000393 seconds.
+  path: Assets/LEGO/Materials/LEGO Behaviour Icons/Platform Action Side.mat
+  artifactKey: Guid(1812ac93e1934472d84b406e5ff44f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Materials/LEGO Behaviour Icons/Platform Action Side.mat using Guid(1812ac93e1934472d84b406e5ff44f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3334a2cbbcbce916bc1c1ac4282d7504') in 0.030846 seconds 
+  Import took 0.034604 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000381 seconds.
+  path: Assets/LEGO/Materials/LEGO Behaviour Icons/Explode Action Side.mat
+  artifactKey: Guid(e5392c50c83f14927ad40f6a390a314e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Materials/LEGO Behaviour Icons/Explode Action Side.mat using Guid(e5392c50c83f14927ad40f6a390a314e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c31bc6bfb8e483463cf6496c70ab26e4') in 0.008263 seconds 
+  Import took 0.011412 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/LEGO/Materials/LEGO Behaviour Icons/Look At Action Side.mat
+  artifactKey: Guid(85723cceac7d64f03b57a30bfe02c773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Materials/LEGO Behaviour Icons/Look At Action Side.mat using Guid(85723cceac7d64f03b57a30bfe02c773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03903b19d04eb997299587b4e5200a42') in 0.008578 seconds 
+  Import took 0.011939 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/LEGO/Materials/LEGO Behaviour Icons/Pickup Action Side.mat
+  artifactKey: Guid(4479e591aadd34fafad390140195d458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Materials/LEGO Behaviour Icons/Pickup Action Side.mat using Guid(4479e591aadd34fafad390140195d458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c019b3577849021722869561e6698d19') in 0.009663 seconds 
+  Import took 0.012748 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000365 seconds.
+  path: Assets/LEGO/Materials/LEGO Behaviour Icons/Counter Trigger Side.mat
+  artifactKey: Guid(32d1c180c23534cf3b63a49182f142d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Materials/LEGO Behaviour Icons/Counter Trigger Side.mat using Guid(32d1c180c23534cf3b63a49182f142d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78ff4c80b60c88e3a1ba1e80f9aacdd5') in 0.008656 seconds 
+  Import took 0.011650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/LEGO/Materials/LEGO Behaviour Icons/Pickup Trigger Side.mat
+  artifactKey: Guid(bbea7331494474e9b879d9ddbad85601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Materials/LEGO Behaviour Icons/Pickup Trigger Side.mat using Guid(bbea7331494474e9b879d9ddbad85601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4c4f05afc3c0fc47b9f8dc757cde7b8') in 0.008519 seconds 
+  Import took 0.011574 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000503 seconds.
+  path: Assets/LEGO/Materials/LEGO Behaviour Icons/Counter Action Side.mat
+  artifactKey: Guid(d3989eeb7cd704bc8859106cebb9bc5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Materials/LEGO Behaviour Icons/Counter Action Side.mat using Guid(d3989eeb7cd704bc8859106cebb9bc5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cd1d075ed17b5ab02bb5ed3d420c537') in 0.008224 seconds 
+  Import took 0.011490 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/LEGO/Materials/LEGO Behaviour Icons/Lose Action Side.mat
+  artifactKey: Guid(da44c3104200a43eaa832cf838484e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Materials/LEGO Behaviour Icons/Lose Action Side.mat using Guid(da44c3104200a43eaa832cf838484e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '869973baad9a775d786c0e7596960db3') in 0.008379 seconds 
+  Import took 0.011649 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/LEGO/Materials/LEGO Behaviour Icons/Control Action Side.mat
+  artifactKey: Guid(6dae5fb88ee1f48978585bf246eb6fd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Materials/LEGO Behaviour Icons/Control Action Side.mat using Guid(6dae5fb88ee1f48978585bf246eb6fd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a6d3aa196293487aa3a20eeb9c12a34') in 0.013208 seconds 
+  Import took 0.016733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/LEGO/Materials/LEGO Behaviour Icons/Spawn Action Side.mat
+  artifactKey: Guid(d8af2095bf5c0324089b41db4705c5c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Materials/LEGO Behaviour Icons/Spawn Action Side.mat using Guid(d8af2095bf5c0324089b41db4705c5c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a0439bb1bcf77d35d4db6c2074c4214') in 0.008082 seconds 
+  Import took 0.011550 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/LEGO/Materials/LEGO Behaviour Icons/Random Trigger Side.mat
+  artifactKey: Guid(6a1b9acdb46854395a28a77195673513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Materials/LEGO Behaviour Icons/Random Trigger Side.mat using Guid(6a1b9acdb46854395a28a77195673513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5653942e69e614832690fef1f428238') in 0.007763 seconds 
+  Import took 0.011082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/LEGO/Materials/LEGO Behaviour Icons/Elevator Action Side.mat
+  artifactKey: Guid(c05934446c3a54e3fb5b43cffddd2968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Materials/LEGO Behaviour Icons/Elevator Action Side.mat using Guid(c05934446c3a54e3fb5b43cffddd2968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ea9d828869f06d4e2d4781573f2f3f3') in 0.008268 seconds 
+  Import took 0.040905 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/LEGO/Materials/LEGO Behaviour Icons/Shoot Action Side.mat
+  artifactKey: Guid(175342944147e437cb54a423da93b65a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Materials/LEGO Behaviour Icons/Shoot Action Side.mat using Guid(175342944147e437cb54a423da93b65a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7202ecdd5ff564c8093c1568fa6a2782') in 0.008575 seconds 
+  Import took 0.032091 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/LEGO/Materials/LEGO Behaviour Icons/Nearby Trigger Side.mat
+  artifactKey: Guid(f9be08ef393ed4d2bb3d9a380e80a824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Materials/LEGO Behaviour Icons/Nearby Trigger Side.mat using Guid(f9be08ef393ed4d2bb3d9a380e80a824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50306f5a209a1218921310997666eb6b') in 0.008190 seconds 
+  Import took 0.022829 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/LEGO/Materials/LEGO Behaviour Icons/Hazard Action Side.mat
+  artifactKey: Guid(6dee11202b7164aa38e1e894beb81e29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Materials/LEGO Behaviour Icons/Hazard Action Side.mat using Guid(6dee11202b7164aa38e1e894beb81e29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75a0b6e68ec074857b1383433255c255') in 0.008282 seconds 
+  Import took 0.011743 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/LEGO/Materials/LEGO Behaviour Icons/One Button Action Side.mat
+  artifactKey: Guid(e12178e7dd72c1242ace5c297fe3445b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Materials/LEGO Behaviour Icons/One Button Action Side.mat using Guid(e12178e7dd72c1242ace5c297fe3445b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c36732567eb0ab75f0e1ca1cff4773ea') in 0.008563 seconds 
+  Import took 0.011954 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000380 seconds.
+  path: Assets/LEGO/Materials/LEGO Behaviour Icons/Audio Action Side.mat
+  artifactKey: Guid(7dbfdc2bcda1e40c2b9ae939604be918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Materials/LEGO Behaviour Icons/Audio Action Side.mat using Guid(7dbfdc2bcda1e40c2b9ae939604be918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9649a041355d22de74db858089ef623e') in 0.008713 seconds 
+  Import took 0.011779 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/LEGO/Materials/LEGO Behaviour Icons/Touch Trigger Side.mat
+  artifactKey: Guid(e5ad3efa36a9c46b4812cff69a557ba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Materials/LEGO Behaviour Icons/Touch Trigger Side.mat using Guid(e5ad3efa36a9c46b4812cff69a557ba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7d6db01d8b8858b57546a2fb4efb1b9') in 0.007991 seconds 
+  Import took 0.010993 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/LEGO/Materials/LEGO Behaviour Icons/Timer Trigger Side.mat
+  artifactKey: Guid(b7e5bb6c489f14eb0bb12454f18fd97f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Materials/LEGO Behaviour Icons/Timer Trigger Side.mat using Guid(b7e5bb6c489f14eb0bb12454f18fd97f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5a2704b3ec59cdc43f1be3885006bcb') in 0.007600 seconds 
+  Import took 0.010647 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/LEGO/Materials/LEGO Behaviour Icons/Move Action Side.mat
+  artifactKey: Guid(a9cee2a9c609f46559e5bf73adfd6432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Materials/LEGO Behaviour Icons/Move Action Side.mat using Guid(a9cee2a9c609f46559e5bf73adfd6432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '330e69970eb8fbae6520376072a5676f') in 0.007908 seconds 
+  Import took 0.011733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000344 seconds.
+  path: Assets/LEGO/Materials/LEGO Behaviour Icons/Input Trigger Side.mat
+  artifactKey: Guid(225bb35e52814460c9736fdc39c9ca04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Materials/LEGO Behaviour Icons/Input Trigger Side.mat using Guid(225bb35e52814460c9736fdc39c9ca04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb8fb6f815eec3cc3cfbf0e19df51bfb') in 0.008137 seconds 
+  Import took 0.011468 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/LEGO/Materials/LEGO Behaviour Icons/Shoot Action Front.mat
+  artifactKey: Guid(e7c6201e8ef42471bbf8e4cdce3704d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Materials/LEGO Behaviour Icons/Shoot Action Front.mat using Guid(e7c6201e8ef42471bbf8e4cdce3704d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0274f44de6dc993230d76efb5539380') in 0.008317 seconds 
+  Import took 0.011527 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/LEGO/Materials/LEGO Behaviour Icons/Speak Action Side.mat
+  artifactKey: Guid(94a1d4a67b2cc70449bb2cd98a5cde3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Materials/LEGO Behaviour Icons/Speak Action Side.mat using Guid(94a1d4a67b2cc70449bb2cd98a5cde3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a1fe88d67f1579f4fd4c7e9235541a7') in 0.008460 seconds 
+  Import took 0.011581 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/LEGO/Materials/LEGO Behaviour Icons/Hover Action Side.mat
+  artifactKey: Guid(51e7aecb8b18f47bf8a21f0a8b536247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Materials/LEGO Behaviour Icons/Hover Action Side.mat using Guid(51e7aecb8b18f47bf8a21f0a8b536247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9570247fa09265de56608f9e890508d5') in 0.008729 seconds 
+  Import took 0.012401 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.870571 seconds.
+  path: Assets/LEGO/Materials/Particles/Bubble.mat
+  artifactKey: Guid(5e0ad87604e384807b33bce7973a1877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Materials/Particles/Bubble.mat using Guid(5e0ad87604e384807b33bce7973a1877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1741a5a84cb2cbb41612a0e520a2621') in 0.156855 seconds 
+  Import took 0.160884 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000567 seconds.
+  path: Assets/LEGO/Materials/Particles/Smoke.mat
+  artifactKey: Guid(be888c2603c32441899fcac3ce325ec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Materials/Particles/Smoke.mat using Guid(be888c2603c32441899fcac3ce325ec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f33b9caefe744a9ea5e01d565cdfc0d') in 0.010928 seconds 
+  Import took 0.037507 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000394 seconds.
+  path: Assets/LEGO/Materials/Particles/Thought Bubble.mat
+  artifactKey: Guid(ea51f85e31d9fe14b8b37770d5ee89de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Materials/Particles/Thought Bubble.mat using Guid(ea51f85e31d9fe14b8b37770d5ee89de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '750c97e77582f207701e7e3aa1e05f96') in 0.026863 seconds 
+  Import took 0.030684 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/LEGO/Materials/Particles/Skull.mat
+  artifactKey: Guid(e6fa1079334404a258411054f032d0de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Materials/Particles/Skull.mat using Guid(e6fa1079334404a258411054f032d0de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06ac73e3469578a7a95aeb3a4b53af29') in 0.008029 seconds 
+  Import took 0.011630 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/LEGO/Materials/Particles/Spark.mat
+  artifactKey: Guid(f122bdcac92f5434ea5100ddae70b7ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Materials/Particles/Spark.mat using Guid(f122bdcac92f5434ea5100ddae70b7ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78208f98e37be784a087ba4f3ac2cad9') in 0.008133 seconds 
+  Import took 0.011569 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/LEGO/Materials/Particles/Sparkle.mat
+  artifactKey: Guid(6d2cc003531254d44ae04da55c7e1f8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Materials/Particles/Sparkle.mat using Guid(6d2cc003531254d44ae04da55c7e1f8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05eee7c12c36b5f57556fa705023910a') in 0.008259 seconds 
+  Import took 0.011240 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005244 seconds.
+  path: Assets/LEGO/Materials/Particles/Sparkle.mat
+  artifactKey: Guid(6d2cc003531254d44ae04da55c7e1f8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Materials/Particles/Sparkle.mat using Guid(6d2cc003531254d44ae04da55c7e1f8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05eee7c12c36b5f57556fa705023910a') in 0.007813 seconds 
+  Import took 0.011087 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.554369 seconds.
+  path: Assets/LEGO/Materials/Skyboxes/Day.mat
+  artifactKey: Guid(617d9be015db68348a623b01ea51a8c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Materials/Skyboxes/Day.mat using Guid(617d9be015db68348a623b01ea51a8c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ebc95e44d2879fad9fabfc40a0b3e16') in 0.016522 seconds 
+  Import took 0.020110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.975990 seconds.
+  path: Assets/LEGO/Gizmos/LEGO Behaviour Icons/Alive Action.png
+  artifactKey: Guid(1cb0f6f33150d4e01916c22d8c8c0849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Gizmos/LEGO Behaviour Icons/Alive Action.png using Guid(1cb0f6f33150d4e01916c22d8c8c0849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49b920aa60a5b1c89d1350067c21f807') in 0.056860 seconds 
+  Import took 0.059953 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000382 seconds.
+  path: Assets/LEGO/Gizmos/LEGO Behaviour Icons/Default.png
+  artifactKey: Guid(36d760fb56b63412386da81d330e2f36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Gizmos/LEGO Behaviour Icons/Default.png using Guid(36d760fb56b63412386da81d330e2f36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92eaffc18daad750a858acc628e4c5b0') in 0.019129 seconds 
+  Import took 0.022319 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000436 seconds.
+  path: Assets/LEGO/Gizmos/LEGO Behaviour Icons/Elevator Action.png
+  artifactKey: Guid(62396c4e8773645d5bc8da9ff7d56efc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Gizmos/LEGO Behaviour Icons/Elevator Action.png using Guid(62396c4e8773645d5bc8da9ff7d56efc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8be0152eb59dd9a43930cf06036e938d') in 0.013125 seconds 
+  Import took 0.016092 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000385 seconds.
+  path: Assets/LEGO/Gizmos/LEGO Behaviour Icons/Explode Action.png
+  artifactKey: Guid(bfa3263c9cc4140e598e85d5da98fbbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Gizmos/LEGO Behaviour Icons/Explode Action.png using Guid(bfa3263c9cc4140e598e85d5da98fbbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '956b34943b069053271eecfa6b3a5ab9') in 0.017898 seconds 
+  Import took 0.021268 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000493 seconds.
+  path: Assets/LEGO/Gizmos/LEGO Behaviour Icons/Move Action.png
+  artifactKey: Guid(b683a97485eb04141b067240d69d0cf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Gizmos/LEGO Behaviour Icons/Move Action.png using Guid(b683a97485eb04141b067240d69d0cf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bcae1befafc94633ee62ab8a2647a4f') in 0.008220 seconds 
+  Import took 0.011429 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000364 seconds.
+  path: Assets/LEGO/Gizmos/LEGO Behaviour Icons/Input Trigger.png
+  artifactKey: Guid(7e97c3f1d4acc4d7fb49c261ec5a7ad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Gizmos/LEGO Behaviour Icons/Input Trigger.png using Guid(7e97c3f1d4acc4d7fb49c261ec5a7ad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e74592c8473ebad14b55cfc6e550ef65') in 0.024330 seconds 
+  Import took 0.027708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/LEGO/Gizmos/LEGO Behaviour Icons/Nearby Trigger.png
+  artifactKey: Guid(c47fb5094138c4ac4bee4be9c0fc3f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Gizmos/LEGO Behaviour Icons/Nearby Trigger.png using Guid(c47fb5094138c4ac4bee4be9c0fc3f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ccc9147c60ab19db6145c3d4c7cf461') in 0.014046 seconds 
+  Import took 0.017087 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000366 seconds.
+  path: Assets/LEGO/Gizmos/LEGO Behaviour Icons/Lose Action.png
+  artifactKey: Guid(1d27aed7a373c43758683bed23394699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Gizmos/LEGO Behaviour Icons/Lose Action.png using Guid(1d27aed7a373c43758683bed23394699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f5ff1f09d808ac594c879c122dac75b') in 0.027919 seconds 
+  Import took 0.031085 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000344 seconds.
+  path: Assets/LEGO/Gizmos/LEGO Behaviour Icons/Shoot Action.png
+  artifactKey: Guid(1c645d5f90921411d971bb4a88fb0f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Gizmos/LEGO Behaviour Icons/Shoot Action.png using Guid(1c645d5f90921411d971bb4a88fb0f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '885ef6c6a29220d047cf52a50ab75d38') in 0.022439 seconds 
+  Import took 0.044456 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000413 seconds.
+  path: Assets/LEGO/Gizmos/LEGO Behaviour Icons/One Button Action.png
+  artifactKey: Guid(af1ed84c82941204789387b147ec2bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Gizmos/LEGO Behaviour Icons/One Button Action.png using Guid(af1ed84c82941204789387b147ec2bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '205d7bae2ecf2d1753a988c8bc21e8b8') in 0.459718 seconds 
+  Import took 0.505650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000384 seconds.
+  path: Assets/LEGO/Gizmos/LEGO Behaviour Icons/Timer Trigger.png
+  artifactKey: Guid(39bb6c2190ef044e88f2fc3255ac9b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Gizmos/LEGO Behaviour Icons/Timer Trigger.png using Guid(39bb6c2190ef044e88f2fc3255ac9b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5678bfcfd676f1e68660b8da3cce5ac6') in 0.021385 seconds 
+  Import took 0.036457 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/LEGO/Gizmos/LEGO Behaviour Icons/Hover Action.png
+  artifactKey: Guid(4f7127ceb16df43618a20c2668ac1224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Gizmos/LEGO Behaviour Icons/Hover Action.png using Guid(4f7127ceb16df43618a20c2668ac1224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35d33cdf355a93e0342f2b667ac469de') in 0.027623 seconds 
+  Import took 0.053064 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000378 seconds.
+  path: Assets/LEGO/Gizmos/LEGO Behaviour Icons/Look At Action.png
+  artifactKey: Guid(02c6d1e70d8254effa463aa61e196558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Gizmos/LEGO Behaviour Icons/Look At Action.png using Guid(02c6d1e70d8254effa463aa61e196558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55d344c4f637ccb6a448684796e9750b') in 0.027366 seconds 
+  Import took 0.030585 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000377 seconds.
+  path: Assets/LEGO/Gizmos/LEGO Behaviour Icons/Counter Action.png
+  artifactKey: Guid(44ab82752144a4d6199e78ad32cb34ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Gizmos/LEGO Behaviour Icons/Counter Action.png using Guid(44ab82752144a4d6199e78ad32cb34ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74da53436b952f527b4a58a45906ef8b') in 0.016165 seconds 
+  Import took 0.019325 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000367 seconds.
+  path: Assets/LEGO/Gizmos/LEGO Behaviour Icons/Counter Trigger.png
+  artifactKey: Guid(4b7ee8362baf045c2ae479b6f23ef520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Gizmos/LEGO Behaviour Icons/Counter Trigger.png using Guid(4b7ee8362baf045c2ae479b6f23ef520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb7910906c7794b9b8d6772057e1152b') in 0.053791 seconds 
+  Import took 0.056991 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/LEGO/Gizmos/LEGO Behaviour Icons/Warning.png
+  artifactKey: Guid(a53152dca1ed84bb8ae1e4348ac733d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Gizmos/LEGO Behaviour Icons/Warning.png using Guid(a53152dca1ed84bb8ae1e4348ac733d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b87d52efa6dba59e6fc53034fe74f688') in 0.062632 seconds 
+  Import took 0.109714 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000400 seconds.
+  path: Assets/LEGO/Gizmos/LEGO Behaviour Icons/Win Action.png
+  artifactKey: Guid(3c4f42cc4cfce402f9a49f0a860003a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Gizmos/LEGO Behaviour Icons/Win Action.png using Guid(3c4f42cc4cfce402f9a49f0a860003a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0125fb2c0ad867bd08e8021e19107c73') in 0.020135 seconds 
+  Import took 0.023044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/LEGO/Gizmos/LEGO Behaviour Icons/Random Trigger.png
+  artifactKey: Guid(9878e561595be41a1a47a93727318c7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Gizmos/LEGO Behaviour Icons/Random Trigger.png using Guid(9878e561595be41a1a47a93727318c7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc744ed1cafb6282e785372f3a6576b9') in 0.038330 seconds 
+  Import took 0.041714 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000503 seconds.
+  path: Assets/LEGO/Gizmos/LEGO Behaviour Icons/Spawn Action.png
+  artifactKey: Guid(6a1d74b44575444df85c60a8813fc0d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Gizmos/LEGO Behaviour Icons/Spawn Action.png using Guid(6a1d74b44575444df85c60a8813fc0d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f205ffc949360ae090d9fb8981b142f1') in 0.007717 seconds 
+  Import took 0.040765 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000344 seconds.
+  path: Assets/LEGO/Gizmos/LEGO Behaviour Icons/Touch Trigger.png
+  artifactKey: Guid(d3e91294b11524d4ebecfbe5cabf974d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Gizmos/LEGO Behaviour Icons/Touch Trigger.png using Guid(d3e91294b11524d4ebecfbe5cabf974d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd8f731e9b88855f15fbe7bd5e63a692') in 0.026435 seconds 
+  Import took 0.029388 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/LEGO/Gizmos/LEGO Behaviour Icons/Hazard Action.png
+  artifactKey: Guid(89d1febd828a94b0f8c8dc5872748df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Gizmos/LEGO Behaviour Icons/Hazard Action.png using Guid(89d1febd828a94b0f8c8dc5872748df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c35132402806a3eadcc7799e7cad372') in 0.035613 seconds 
+  Import took 0.039033 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/LEGO/Gizmos/LEGO Behaviour Icons/Audio Action.png
+  artifactKey: Guid(b1f0f14707a0e4a589c9a546da887dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Gizmos/LEGO Behaviour Icons/Audio Action.png using Guid(b1f0f14707a0e4a589c9a546da887dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d694e37acbf4c0a3e9def18d9b7159e') in 0.007181 seconds 
+  Import took 0.010322 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/LEGO/Gizmos/LEGO Behaviour Icons/Pickup Action.png
+  artifactKey: Guid(534f3aba982394c7c8937f752990f093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Gizmos/LEGO Behaviour Icons/Pickup Action.png using Guid(534f3aba982394c7c8937f752990f093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f269ad214f410b112cb269d95994d62') in 0.015244 seconds 
+  Import took 0.018372 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/LEGO/Gizmos/LEGO Behaviour Icons/Control Action.png
+  artifactKey: Guid(47f3c44e595084a81b44a0e3463095aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Gizmos/LEGO Behaviour Icons/Control Action.png using Guid(47f3c44e595084a81b44a0e3463095aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e080af4da6753b10fe7c989bb9bd3ef6') in 0.012296 seconds 
+  Import took 0.015323 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/LEGO/Gizmos/LEGO Behaviour Icons/Speak Action.png
+  artifactKey: Guid(f1fff6af1ab1ea840aff6113f44d0ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Gizmos/LEGO Behaviour Icons/Speak Action.png using Guid(f1fff6af1ab1ea840aff6113f44d0ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5faca322c44dfd34dd55a13a854d55e5') in 0.009379 seconds 
+  Import took 0.013249 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/LEGO/Gizmos/LEGO Behaviour Icons/Rotate Action.png
+  artifactKey: Guid(a92f4d81580364ddfbd60a09de9996bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Gizmos/LEGO Behaviour Icons/Rotate Action.png using Guid(a92f4d81580364ddfbd60a09de9996bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cbcd7bf392085f122ef9b8f09f46d2d') in 0.017726 seconds 
+  Import took 0.035761 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000402 seconds.
+  path: Assets/LEGO/Gizmos/LEGO Behaviour Icons/Platform Action.png
+  artifactKey: Guid(bc5790c01b6fd4ce2985b09caec06206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Gizmos/LEGO Behaviour Icons/Platform Action.png using Guid(bc5790c01b6fd4ce2985b09caec06206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e12240aa4d38ce01de75e20e17815678') in 0.007367 seconds 
+  Import took 0.010444 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000486 seconds.
+  path: Assets/LEGO/Gizmos/LEGO Behaviour Icons/Pickup Trigger.png
+  artifactKey: Guid(35c263f77f91945948773e03715afaaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Gizmos/LEGO Behaviour Icons/Pickup Trigger.png using Guid(35c263f77f91945948773e03715afaaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5457cae84fb2cbd448322e76e5002136') in 0.007174 seconds 
+  Import took 0.010743 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004758 seconds.
+  path: Assets/LEGO/Gizmos/LEGO Behaviour Icons/Platform Action.png
+  artifactKey: Guid(bc5790c01b6fd4ce2985b09caec06206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Gizmos/LEGO Behaviour Icons/Platform Action.png using Guid(bc5790c01b6fd4ce2985b09caec06206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e12240aa4d38ce01de75e20e17815678') in 0.005954 seconds 
+  Import took 0.009536 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.495927 seconds.
+  path: Assets/LEGO/Animations/Minifig@AirGuitar.fbx
+  artifactKey: Guid(9086ab8c0ab564a22aa706645ff4ecf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Animations/Minifig@AirGuitar.fbx using Guid(9086ab8c0ab564a22aa706645ff4ecf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82b3b4b90113dc8bf8278f55ccff7ca8') in 0.045526 seconds 
+  Import took 0.070525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000402 seconds.
+  path: Assets/LEGO/Animations/Minifig@RightHandReactive.fbx
+  artifactKey: Guid(4c8f8480eeff7416d8067c59d6d4c210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Animations/Minifig@RightHandReactive.fbx using Guid(4c8f8480eeff7416d8067c59d6d4c210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a97d91a1c3ccc8e3d5250e615be3220d') in 0.009194 seconds 
+  Import took 0.012737 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000373 seconds.
+  path: Assets/LEGO/Animations/Minifig@LookingUp.fbx
+  artifactKey: Guid(1f3ee695c8e8c4493ad86e5d546a222b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Animations/Minifig@LookingUp.fbx using Guid(1f3ee695c8e8c4493ad86e5d546a222b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a208f3f614f0cd30dd82626acba3bd6f') in 0.024487 seconds 
+  Import took 0.028869 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000380 seconds.
+  path: Assets/LEGO/Animations/Minifig@Skipping.fbx
+  artifactKey: Guid(c9f41686fb24e4707bedc0a5caf84cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Animations/Minifig@Skipping.fbx using Guid(c9f41686fb24e4707bedc0a5caf84cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c6922410b1c1751c585474f547a4a0b') in 0.008457 seconds 
+  Import took 0.011851 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000419 seconds.
+  path: Assets/LEGO/Animations/Minifig@CrawlOnWallLeft.fbx
+  artifactKey: Guid(4209d956c0490426f8259d639584c0f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Animations/Minifig@CrawlOnWallLeft.fbx using Guid(4209d956c0490426f8259d639584c0f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f091f97bc244fa4f9f6590952d7e51f') in 0.038756 seconds 
+  Import took 0.042669 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000414 seconds.
+  path: Assets/LEGO/Animations/Minifig@Stretching.fbx
+  artifactKey: Guid(6c496a874c1684c58ac15c65e5d09d91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Animations/Minifig@Stretching.fbx using Guid(6c496a874c1684c58ac15c65e5d09d91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b48d14f06d6aac247d9d01bcc8cbc42') in 0.009011 seconds 
+  Import took 0.012520 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/LEGO/Animations/Minifig@Turn_90_Right.fbx
+  artifactKey: Guid(01a36693f18de4c7dbb74a6ce30cc5a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Animations/Minifig@Turn_90_Right.fbx using Guid(01a36693f18de4c7dbb74a6ce30cc5a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bea9dbeef922716346b8c1e9a0b1226c') in 0.008222 seconds 
+  Import took 0.021882 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/LEGO/Animations/Minifig@LookingAround.fbx
+  artifactKey: Guid(bc6ac262a5fbd4bf4bb79c8d6dcf5cf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Animations/Minifig@LookingAround.fbx using Guid(bc6ac262a5fbd4bf4bb79c8d6dcf5cf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03edbce064855573ade26aa9c29d7a3e') in 0.009668 seconds 
+  Import took 0.013516 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000380 seconds.
+  path: Assets/LEGO/Animations/Minifig@Crawl.fbx
+  artifactKey: Guid(79cacaf3c18c545c4967c51f46d43596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Animations/Minifig@Crawl.fbx using Guid(79cacaf3c18c545c4967c51f46d43596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '076d30f7045c76077aa37705d670b92b') in 0.009189 seconds 
+  Import took 0.012643 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/LEGO/Animations/Minifig@Jump_Midair.fbx
+  artifactKey: Guid(d986265ff8710476abb4af0926359f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Animations/Minifig@Jump_Midair.fbx using Guid(d986265ff8710476abb4af0926359f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4a944d61d309a964f67743f97c32f6e') in 0.008370 seconds 
+  Import took 0.011791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/LEGO/Animations/Minifig@CrawlOnWallRight.fbx
+  artifactKey: Guid(34eff1f53aa0f49d891dcfab42076c17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Animations/Minifig@CrawlOnWallRight.fbx using Guid(34eff1f53aa0f49d891dcfab42076c17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '751c8740f2042134a1e578fda7350991') in 0.008691 seconds 
+  Import took 0.012103 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/LEGO/Animations/Minifig@LeftHandReaction.fbx
+  artifactKey: Guid(dcee35af558b44a5c8e5bfa18788687b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Animations/Minifig@LeftHandReaction.fbx using Guid(dcee35af558b44a5c8e5bfa18788687b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c00173b7065284d494bdf0a870ae2f32') in 0.022456 seconds 
+  Import took 0.026077 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Assets/LEGO/Animations/Minifig@Laughing.fbx
+  artifactKey: Guid(2bc2035b2f62a454184aee2f186920ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Animations/Minifig@Laughing.fbx using Guid(2bc2035b2f62a454184aee2f186920ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2db74a20b472171f5a40b95f3d4f1301') in 0.011312 seconds 
+  Import took 0.014878 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/LEGO/Animations/Minifig@KickRightFoot.fbx
+  artifactKey: Guid(ba8e00a23ad1647bab1a6530dedca49a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Animations/Minifig@KickRightFoot.fbx using Guid(ba8e00a23ad1647bab1a6530dedca49a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72154b08657f5e4fd214bcee1b6ff994') in 0.007918 seconds 
+  Import took 0.011545 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/LEGO/Animations/Minifig@Sleeping.fbx
+  artifactKey: Guid(00a6ec06dd6444464a7c8e2d80c9e4e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Animations/Minifig@Sleeping.fbx using Guid(00a6ec06dd6444464a7c8e2d80c9e4e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee2660aba8018bf8aa18579e8659e818') in 0.009709 seconds 
+  Import took 0.013082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/LEGO/Animations/Minifig@Slide.fbx
+  artifactKey: Guid(906b4fa866590456ca66499c8fc6fcfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Animations/Minifig@Slide.fbx using Guid(906b4fa866590456ca66499c8fc6fcfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9701aecc6e31e8e24c6a2f6d7bf69e7d') in 0.008216 seconds 
+  Import took 0.012357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/LEGO/Animations/Minifig@LegReactive.fbx
+  artifactKey: Guid(8e63953137dbe47ffa78c89afb785d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Animations/Minifig@LegReactive.fbx using Guid(8e63953137dbe47ffa78c89afb785d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51034d69eab3905212c1b0708ef02d96') in 0.022560 seconds 
+  Import took 0.026031 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/LEGO/Animations/Minifig@Ballerina.fbx
+  artifactKey: Guid(e2887db5d030d487b9bc60344f3b448b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Animations/Minifig@Ballerina.fbx using Guid(e2887db5d030d487b9bc60344f3b448b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b91097bafe2c2be3395e22dcfd938c1') in 0.025626 seconds 
+  Import took 0.047597 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/LEGO/Animations/Minifig@IdleImpatient.fbx
+  artifactKey: Guid(44288297be20f4356a53ba9d4982a0c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Animations/Minifig@IdleImpatient.fbx using Guid(44288297be20f4356a53ba9d4982a0c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c98fb15aabe73dc27e9447d9c858731d') in 0.009215 seconds 
+  Import took 0.012842 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000415 seconds.
+  path: Assets/LEGO/Animations/Minifig@LookingDown.fbx
+  artifactKey: Guid(3189dd918c0f446e4b831e9fd2e77a89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Animations/Minifig@LookingDown.fbx using Guid(3189dd918c0f446e4b831e9fd2e77a89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d1af1eec12976052aaa7b3a7d467c8c') in 0.009033 seconds 
+  Import took 0.012406 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/LEGO/Animations/Minifig@HatSwap.fbx
+  artifactKey: Guid(ac445281f8f3a4a1e94fff480541b0fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Animations/Minifig@HatSwap.fbx using Guid(ac445281f8f3a4a1e94fff480541b0fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d0ef1c8f18adfbd0c516d16659e5f8f') in 0.020537 seconds 
+  Import took 0.024361 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Assets/LEGO/Animations/Minifig@Jump_NoLanding_No_Y_Axis.fbx
+  artifactKey: Guid(cc0bc8eb7d73c414a8d599d553ef2f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Animations/Minifig@Jump_NoLanding_No_Y_Axis.fbx using Guid(cc0bc8eb7d73c414a8d599d553ef2f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f29038ee6ae013f92a1ce4691d162ec9') in 0.007570 seconds 
+  Import took 0.010874 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/LEGO/Animations/Minifig@WalkBackwards.fbx
+  artifactKey: Guid(44598b98adbda4baaa34694249d1435b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Animations/Minifig@WalkBackwards.fbx using Guid(44598b98adbda4baaa34694249d1435b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1ee711f49df0be5a66f1fdf91d7e823') in 0.025688 seconds 
+  Import took 0.029342 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/LEGO/Animations/Minifig@Wave.fbx
+  artifactKey: Guid(dd744a24b2b8d4301addbe01a8b1fe39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Animations/Minifig@Wave.fbx using Guid(dd744a24b2b8d4301addbe01a8b1fe39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d950937063de05cf00866924cb314a5') in 0.008740 seconds 
+  Import took 0.012017 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/LEGO/Animations/Minifig@HatSwap2.fbx
+  artifactKey: Guid(8e885993f50c7485986bd4a3037e636c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Animations/Minifig@HatSwap2.fbx using Guid(8e885993f50c7485986bd4a3037e636c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a484cb95ca195d86c9ef3c442a497ec8') in 0.008693 seconds 
+  Import took 0.012878 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/LEGO/Animations/Minifig@Spin.fbx
+  artifactKey: Guid(ddb6481764fc648e8a7f8eac82fdf2e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Animations/Minifig@Spin.fbx using Guid(ddb6481764fc648e8a7f8eac82fdf2e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd323a93655cedb4a7261585f588d391') in 0.023259 seconds 
+  Import took 0.026636 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000445 seconds.
+  path: Assets/LEGO/Animations/Minifig@Supserman_Setoff.fbx
+  artifactKey: Guid(ecfa6c56a640e4c168024493c560f9ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Animations/Minifig@Supserman_Setoff.fbx using Guid(ecfa6c56a640e4c168024493c560f9ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d7ed9ab29d0ce96c18e6b36ed04d19b') in 0.010519 seconds 
+  Import took 0.014305 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/LEGO/Animations/Minifig@Torso_Reactive.fbx
+  artifactKey: Guid(b329f7eb758284d2a830be1138606480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Animations/Minifig@Torso_Reactive.fbx using Guid(b329f7eb758284d2a830be1138606480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a55afe2ec8dc87d75e020513f9180cb') in 0.018876 seconds 
+  Import took 0.022957 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/LEGO/Animations/Minifig@Flip_No_Y_Axis.fbx
+  artifactKey: Guid(cf69a5f7a1d534cd7802b55f0659dfea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Animations/Minifig@Flip_No_Y_Axis.fbx using Guid(cf69a5f7a1d534cd7802b55f0659dfea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5acaf98d64216eadcdee9484068884c6') in 0.008581 seconds 
+  Import took 0.012679 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/LEGO/Animations/Minifig@Jump_GoingUp.fbx
+  artifactKey: Guid(e6ac09174ff664a80bdd06de697a8c64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Animations/Minifig@Jump_GoingUp.fbx using Guid(e6ac09174ff664a80bdd06de697a8c64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '715e00c3d686d77a0cab9b466fbea6bc') in 0.007992 seconds 
+  Import took 0.011775 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/LEGO/Animations/Minifig@Snoozing.fbx
+  artifactKey: Guid(2738123f05e964c348c30e7daa840270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Animations/Minifig@Snoozing.fbx using Guid(2738123f05e964c348c30e7daa840270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f637dec09eb7489d483f41bcacede09') in 0.201823 seconds 
+  Import took 0.205657 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000377 seconds.
+  path: Assets/LEGO/Animations/Minifig@Flexing.fbx
+  artifactKey: Guid(102408b185595481da59a068e655abc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Animations/Minifig@Flexing.fbx using Guid(102408b185595481da59a068e655abc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a1bd2667cf3fa84ea2b384d9223d5cb') in 0.008194 seconds 
+  Import took 0.011823 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/LEGO/Animations/Minifig@Jump_wBounce.fbx
+  artifactKey: Guid(82a36a63ff90d4986afcdf4bce710350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Animations/Minifig@Jump_wBounce.fbx using Guid(82a36a63ff90d4986afcdf4bce710350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b91cd8f01108a40aba99712ffcb3f97') in 0.202195 seconds 
+  Import took 0.205780 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000380 seconds.
+  path: Assets/LEGO/Animations/Minifig@Jump_LandingBounce.fbx
+  artifactKey: Guid(08cbfe9c9abf2415490ffcfd07f93212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Animations/Minifig@Jump_LandingBounce.fbx using Guid(08cbfe9c9abf2415490ffcfd07f93212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40df9594980dbb836d3a762a76ccbf09') in 0.009465 seconds 
+  Import took 0.012772 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/LEGO/Animations/Minifig@Jump.fbx
+  artifactKey: Guid(a3df756f4f7ae40748f349763783e686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Animations/Minifig@Jump.fbx using Guid(a3df756f4f7ae40748f349763783e686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd86463b9db79aec5f393863ef812f15d') in 0.013919 seconds 
+  Import took 0.017979 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/LEGO/Animations/Minifig@MoonWalk.fbx
+  artifactKey: Guid(47c895e81b4864558a5b5723e1edcc81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Animations/Minifig@MoonWalk.fbx using Guid(47c895e81b4864558a5b5723e1edcc81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b51ec390333dd88092ed6083cdae05a') in 0.027685 seconds 
+  Import took 0.031247 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000394 seconds.
+  path: Assets/LEGO/Animations/Minifig@Jump_GoingDown.fbx
+  artifactKey: Guid(7d62f945d79d1416285a76fab9b1e1ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Animations/Minifig@Jump_GoingDown.fbx using Guid(7d62f945d79d1416285a76fab9b1e1ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1680d47c243692083e1046ee369b66f') in 0.008140 seconds 
+  Import took 0.011837 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000385 seconds.
+  path: Assets/LEGO/Animations/Minifig@IdleHeavy.fbx
+  artifactKey: Guid(3d2bce3132d234fd9931c73d36b011d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Animations/Minifig@IdleHeavy.fbx using Guid(3d2bce3132d234fd9931c73d36b011d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9706676666bc838d52ccecb8ea09259') in 0.008265 seconds 
+  Import took 0.011690 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000396 seconds.
+  path: Assets/LEGO/Animations/Minifig@Dance.fbx
+  artifactKey: Guid(5e2fe9ef50b724f8eac92fbf54c86632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Animations/Minifig@Dance.fbx using Guid(5e2fe9ef50b724f8eac92fbf54c86632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31e282e91b47fe21254735580ee42ddb') in 0.026114 seconds 
+  Import took 0.029432 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000388 seconds.
+  path: Assets/LEGO/Animations/Minifig@Idle_Light.fbx
+  artifactKey: Guid(851f67277607149c5b6d475384020033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Animations/Minifig@Idle_Light.fbx using Guid(851f67277607149c5b6d475384020033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eee90acd85ea0f54c44c9f69111a74cb') in 0.007874 seconds 
+  Import took 0.011191 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/LEGO/Animations/Minifig@Superman_Flying.fbx
+  artifactKey: Guid(b63ce820b5ef74e1bbc9677d0d199c34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Animations/Minifig@Superman_Flying.fbx using Guid(b63ce820b5ef74e1bbc9677d0d199c34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd09dd7d91f7de7f6011f7f41daa7a1a') in 0.008411 seconds 
+  Import took 0.012006 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/LEGO/Animations/Minifig@Walk.fbx
+  artifactKey: Guid(b78a698a238bc4250a9063e3b87eb03c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Animations/Minifig@Walk.fbx using Guid(b78a698a238bc4250a9063e3b87eb03c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f949617648de4acc6e0e509a95b9d3e') in 0.023856 seconds 
+  Import took 0.027277 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000383 seconds.
+  path: Assets/LEGO/Animations/Minifig@Sneezing.fbx
+  artifactKey: Guid(29873ed3528a24e19a740a540fca699d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Animations/Minifig@Sneezing.fbx using Guid(29873ed3528a24e19a740a540fca699d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a10fb30be5c8d3db1a5bb222bed8080a') in 0.009328 seconds 
+  Import took 0.012911 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/LEGO/Animations/Minifig@Spiderman.fbx
+  artifactKey: Guid(3e4ae9264c6ad486db2f74ef48728a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Animations/Minifig@Spiderman.fbx using Guid(3e4ae9264c6ad486db2f74ef48728a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f05726bbe8c13f8c8f2c0dc4dc62a59b') in 0.021492 seconds 
+  Import took 0.025838 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000366 seconds.
+  path: Assets/LEGO/Animations/Minifig@LookAbove.fbx
+  artifactKey: Guid(79f2ca7a5d6804cf3b803dcc965e0f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Animations/Minifig@LookAbove.fbx using Guid(79f2ca7a5d6804cf3b803dcc965e0f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17f03ba8b74c0f6db7fd04a500a1c573') in 0.025158 seconds 
+  Import took 0.028626 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000371 seconds.
+  path: Assets/LEGO/Animations/Minifig@Run.fbx
+  artifactKey: Guid(a027f6f1a85184a6ab8deaecc046a8be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Animations/Minifig@Run.fbx using Guid(a027f6f1a85184a6ab8deaecc046a8be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a24ae165d87cade094bb9dcbb8ed446') in 0.008576 seconds 
+  Import took 0.011917 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Assets/LEGO/Animations/Minifig@PantsSwap.fbx
+  artifactKey: Guid(a7fc389e2a1054b6680e0f64873dd1f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Animations/Minifig@PantsSwap.fbx using Guid(a7fc389e2a1054b6680e0f64873dd1f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4097d19ffe9bd28d0a1c2a0f90aed073') in 0.008714 seconds 
+  Import took 0.012205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/LEGO/Animations/Minifig@Turn_90_Left.fbx
+  artifactKey: Guid(8e772cf6dd3ba40bca580e46c8954831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Animations/Minifig@Turn_90_Left.fbx using Guid(8e772cf6dd3ba40bca580e46c8954831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '460c2468f74cfd6bc86c1bc1195b727d') in 0.008352 seconds 
+  Import took 0.022882 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.308328 seconds.
+  path: Assets/LEGO/Scriptable Objects/Energy.asset
+  artifactKey: Guid(b7a4be28725a75041ba5ac5bd06e301d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Scriptable Objects/Energy.asset using Guid(b7a4be28725a75041ba5ac5bd06e301d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c1245a2d99aa2540751797ae3cabd6b') in 0.034564 seconds 
+  Import took 0.038226 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000399 seconds.
+  path: Assets/LEGO/Scriptable Objects/Score.asset
+  artifactKey: Guid(9261f9ea2e9216c46ad193ed9d1a494b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Scriptable Objects/Score.asset using Guid(9261f9ea2e9216c46ad193ed9d1a494b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60ce1f2230f1b0757d4960024fc4f79b') in 0.018785 seconds 
+  Import took 0.022240 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000444 seconds.
+  path: Assets/LEGO/Scriptable Objects/Progress.asset
+  artifactKey: Guid(c315452861337b44bb5ecc06e737b10d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Scriptable Objects/Progress.asset using Guid(c315452861337b44bb5ecc06e737b10d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9da583978d12b52c5363fc1a3b9d1837') in 0.018362 seconds 
+  Import took 0.021800 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.194306 seconds.
+  path: Assets/LEGO/Shaders/DeformedShaderVariants.shadervariants
+  artifactKey: Guid(092ceb32b4fe644e29cc60fb101e4fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Shaders/DeformedShaderVariants.shadervariants using Guid(092ceb32b4fe644e29cc60fb101e4fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a24a466e281b42845632d7e22579a69d') in 0.171978 seconds 
+  Import took 0.175180 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.235137 seconds.
+  path: Assets/LEGO/Textures/Grid.png
+  artifactKey: Guid(f5163cd4b4bdc425c90fb58a85de0e03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Textures/Grid.png using Guid(f5163cd4b4bdc425c90fb58a85de0e03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c97dd60effb6f55f8f72917cd960a860') in 0.021540 seconds 
+  Import took 0.024745 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002526 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.017 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1018ms)
+		BeginReloadAssembly (105ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (853ms)
+			LoadAssemblies (76ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (271ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (368ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (95ms)
+				ProcessInitializeOnLoadAttributes (258ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1985 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 115.4 MB.
+System memory in use after: 115.5 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2518.
+Total: 3.585100 ms (FindLiveObjects: 0.200100 ms CreateObjectMapping: 0.072300 ms MarkObjects: 3.248700 ms  DeleteObjects: 0.062700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
