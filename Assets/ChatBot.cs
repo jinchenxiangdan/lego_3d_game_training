@@ -18,6 +18,7 @@ public class ChatBot : MonoBehaviour
 
     [SerializeField]
     private Text m_Recognitions;
+
     // // Update is called once per frame
     // void Update()
     // {
@@ -40,13 +41,13 @@ public class ChatBot : MonoBehaviour
         m_DictationRecognizer.DictationResult += (text, confidence) =>
         {
             Debug.LogFormat("Dictation result: {0}", text);
-            m_Recognitions.text += text + "\n";
+            // m_Recognitions.text += text + "\n";
         };
 
         m_DictationRecognizer.DictationHypothesis += (text) =>
         {
-            Debug.LogFormat("Dictation hypothesis: {0}", text);
-            m_Hypotheses.text += text;
+            // Debug.LogFormat("Dictation hypothesis: {0}", text);
+            // m_Hypotheses.text += text;
         };
 
         m_DictationRecognizer.DictationComplete += (completionCause) =>
@@ -59,7 +60,12 @@ public class ChatBot : MonoBehaviour
         {
             Debug.LogErrorFormat("Dictation error: {0}; HResult = {1}.", error, hresult);
         };
-
+ 
         m_DictationRecognizer.Start();
+    }
+
+    void Update()
+    {
+        
     }
 }
