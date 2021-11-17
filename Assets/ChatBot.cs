@@ -5,6 +5,7 @@ using UnityEditor;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Windows.Speech;
+using UnityEngine.Networking;
 
 public class ChatBot : MonoBehaviour
 {
@@ -19,11 +20,7 @@ public class ChatBot : MonoBehaviour
     [SerializeField]
     private Text m_Recognitions;
 
-    // // Update is called once per frame
-    // void Update()
-    // {
-        
-    // }
+    
 
     // Speech Keyword recognizer 
     // private KeywordRecognizer keywordRecognizer;
@@ -62,10 +59,32 @@ public class ChatBot : MonoBehaviour
         };
  
         m_DictationRecognizer.Start();
+
+        StartCoroutine(CallChatbotServer("help e"));
     }
 
     void Update()
     {
         
+    }
+
+    IEnumerator CallChatbotServer(string input)
+    {
+        string chatbot_server_url = "http://127.0.0.1:8000/chat/c/api/";
+        string target_url = chatbot_server_url + $"?input={input}";
+        Debug.Log($"asking: {target_url}...");
+        UnityWebRequest www = UnityWebRequest.Get(target_url);
+        yield return www.SendWebRequest();
+ 
+        if (www.result != UnityWebRequest.Result.Success) {
+            Debug.Log(www.error);
+        }
+        else {
+            // Show results as text
+            Debug.Log(www.downloadHandler.text);
+ 
+            // Or retrieve results as binary data
+            byte[] results = www.downloadHandler.data;
+        }
     }
 }
