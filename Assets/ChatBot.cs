@@ -12,7 +12,7 @@ public class ChatBot : MonoBehaviour
     // // Start is called before the first frame update
     // void Start()
     // {
-        
+    protected DictationRecognizer dictationRecognizer;
     // }
     [SerializeField]
     private Text m_Hypotheses;
@@ -34,38 +34,100 @@ public class ChatBot : MonoBehaviour
 
     void Start()
     {
-        m_DictationRecognizer = new DictationRecognizer();
-        m_DictationRecognizer.DictationResult += (text, confidence) =>
-        {
-            Debug.LogFormat("Dictation result: {0}", text);
-            // m_Recognitions.text += text + "\n";
-        };
+        // m_DictationRecognizer = new DictationRecognizer();
+        // m_DictationRecognizer.DictationResult += (text, confidence) =>
+        // {
+        //     Debug.LogFormat("Dictation result: {0}", text);
+        //     // m_Recognitions.text += text + "\n";
+        // };
 
-        m_DictationRecognizer.DictationHypothesis += (text) =>
-        {
-            // Debug.LogFormat("Dictation hypothesis: {0}", text);
-            // m_Hypotheses.text += text;
-        };
+        // m_DictationRecognizer.DictationHypothesis += (text) =>
+        // {
+        //     // Debug.LogFormat("Dictation hypothesis: {0}", text);
+        //     // m_Hypotheses.text += text;
+        // };
 
-        m_DictationRecognizer.DictationComplete += (completionCause) =>
-        {
-            if (completionCause != DictationCompletionCause.Complete)
-                Debug.LogErrorFormat("Dictation completed unsuccessfully: {0}.", completionCause);
-        };
+        // m_DictationRecognizer.DictationComplete += (completionCause) =>
+        // {
+        //     if (completionCause != DictationCompletionCause.Complete)
+        //         Debug.LogErrorFormat("Dictation completed unsuccessfully: {0}.", completionCause);
+        // };
 
-        m_DictationRecognizer.DictationError += (error, hresult) =>
-        {
-            Debug.LogErrorFormat("Dictation error: {0}; HResult = {1}.", error, hresult);
-        };
+        // m_DictationRecognizer.DictationError += (error, hresult) =>
+        // {
+        //     Debug.LogErrorFormat("Dictation error: {0}; HResult = {1}.", error, hresult);
+        // };
  
-        m_DictationRecognizer.Start();
+        // m_DictationRecognizer.Start();
 
-        StartCoroutine(CallChatbotServer("help e"));
+        // StartCoroutine(CallChatbotServer("help e"));
+
+        StartDictationEngine();
     }
 
-    void Update()
+    void OnApplicationQuit()
     {
-        
+        CloseDictationEngine();
+    }
+
+    private void DictationRecognizer_OnDictationHypothesis(string text)
+    {
+        Debug.Log("Dictation hypothesis: " + text);
+    }
+    private void DictationRecognizer_OnDictationComplete(DictationCompletionCause completionCause)
+    {
+        switch (completionCause)
+        {
+            case DictationCompletionCause.TimeoutExceeded:
+            case DictationCompletionCause.PauseLimitExceeded:
+            case DictationCompletionCause.Canceled:
+            case DictationCompletionCause.Complete:
+                // Restart required
+                CloseDictationEngine();
+                StartDictationEngine();
+                break;
+            case DictationCompletionCause.UnknownError:
+            case DictationCompletionCause.AudioQualityFailure:
+            case DictationCompletionCause.MicrophoneUnavailable:
+            case DictationCompletionCause.NetworkFailure:
+                // Error
+                CloseDictationEngine();
+                break;
+        }
+    }
+    private void DictationRecognizer_OnDictationResult(string text, ConfidenceLevel confidence)
+    {
+        Debug.Log("Dictation result: " + text);
+    }
+    private void DictationRecognizer_OnDictationError(string error, int hresult)
+    {
+        Debug.Log("Dictation error: " + error);
+    }
+
+    private void CloseDictationEngine()
+    {
+        if (dictationRecognizer != null)
+        {
+            dictationRecognizer.DictationHypothesis -= DictationRecognizer_OnDictationHypothesis;
+            dictationRecognizer.DictationComplete -= DictationRecognizer_OnDictationComplete;
+            dictationRecognizer.DictationResult -= DictationRecognizer_OnDictationResult;
+            dictationRecognizer.DictationError -= DictationRecognizer_OnDictationError;
+            if (dictationRecognizer.Status == SpeechSystemStatus.Running)
+            {
+                dictationRecognizer.Stop();
+            }
+            dictationRecognizer.Dispose();
+        }
+    }
+
+    private void StartDictationEngine()
+    {
+        dictationRecognizer = new DictationRecognizer();
+        dictationRecognizer.DictationHypothesis += DictationRecognizer_OnDictationHypothesis;
+        dictationRecognizer.DictationResult += DictationRecognizer_OnDictationResult;
+        dictationRecognizer.DictationComplete += DictationRecognizer_OnDictationComplete;
+        dictationRecognizer.DictationError += DictationRecognizer_OnDictationError;
+        dictationRecognizer.Start();
     }
 
     IEnumerator CallChatbotServer(string input)
