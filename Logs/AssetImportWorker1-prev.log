@@ -15,11 +15,11 @@ D:/Projects/lego_3d_game_training
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-64952
+58061
 Successfully changed project path to: D:/Projects/lego_3d_game_training
 D:/Projects/lego_3d_game_training
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 53.43 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 53.42 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.17f1 (a4537701e4ab)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Resources/UnitySubsystems
@@ -35,35 +35,35 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56768
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56844
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001310 seconds.
+Registered in 0.001180 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 51.38 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 52.61 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.875 seconds
+- Completed reload, in  0.861 seconds
 Domain Reload Profiling:
-	ReloadAssembly (875ms)
-		BeginReloadAssembly (48ms)
+	ReloadAssembly (861ms)
+		BeginReloadAssembly (42ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (385ms)
-			LoadAssemblies (46ms)
+		EndReloadAssembly (387ms)
+			LoadAssemblies (40ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (139ms)
+			SetupTypeCache (142ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (27ms)
-			SetupLoadedEditorAssemblies (155ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (156ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (51ms)
+				RefreshPlugins (53ms)
 				BeforeProcessingInitializeOnLoad (11ms)
 				ProcessInitializeOnLoadAttributes (66ms)
 				ProcessInitializeOnLoadMethodAttributes (23ms)
@@ -73,51 +73,51 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003817 seconds.
+Registered in 0.002522 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.27 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.589 seconds
+- Completed reload, in  2.030 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1590ms)
-		BeginReloadAssembly (122ms)
+	ReloadAssembly (2031ms)
+		BeginReloadAssembly (229ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (17ms)
-		EndReloadAssembly (1414ms)
-			LoadAssemblies (71ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (1710ms)
+			LoadAssemblies (501ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (266ms)
+			SetupTypeCache (329ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (51ms)
-			SetupLoadedEditorAssemblies (937ms)
+			RebuildScriptCaches (69ms)
+			SetupLoadedEditorAssemblies (683ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (90ms)
-				ProcessInitializeOnLoadAttributes (833ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
-				AfterProcessingInitializeOnLoad (4ms)
+				BeforeProcessingInitializeOnLoad (142ms)
+				ProcessInitializeOnLoadAttributes (521ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2026 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 93.9 MB.
 System memory in use after: 94.0 MB.
 
 Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2463.
-Total: 2.687100 ms (FindLiveObjects: 0.188400 ms CreateObjectMapping: 0.079100 ms MarkObjects: 2.349500 ms  DeleteObjects: 0.069100 ms)
+Total: 4.672100 ms (FindLiveObjects: 0.217300 ms CreateObjectMapping: 0.080000 ms MarkObjects: 4.275400 ms  DeleteObjects: 0.097800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -132,80 +132,218 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/ChatBot.cs
-  artifactKey: Guid(9f3c9c4351d62284489e6f2e1256670d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ChatBot.cs using Guid(9f3c9c4351d62284489e6f2e1256670d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9507a600c5c58aa70cb57a7332d5f8d') in 0.086503 seconds 
-  Import took 0.091063 seconds .
+  path: Assets/chatbot.py
+  artifactKey: Guid(9b9a77449b53b74469f503b9b1058ea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/chatbot.py using Guid(9b9a77449b53b74469f503b9b1058ea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75d3e8ebe927b6465d857952d1336be8') in 0.052391 seconds 
+  Import took 0.057234 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 415.155523 seconds.
+  Time since last request: 0.000229 seconds.
   path: Assets/ChatBot.cs
   artifactKey: Guid(9f3c9c4351d62284489e6f2e1256670d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ChatBot.cs using Guid(9f3c9c4351d62284489e6f2e1256670d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e614e07c875f0a7571a3efd822715311') in 0.001664 seconds 
-  Import took 0.004691 seconds .
+Start importing Assets/ChatBot.cs using Guid(9f3c9c4351d62284489e6f2e1256670d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd52b4064bc944641af08c6fa15201ca4') in 0.066581 seconds 
+  Import took 0.071600 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 38.756482 seconds.
+  Time since last request: 2417.863198 seconds.
   path: Assets/ChatBot.cs
   artifactKey: Guid(9f3c9c4351d62284489e6f2e1256670d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ChatBot.cs using Guid(9f3c9c4351d62284489e6f2e1256670d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0083e9d606b1b0752c24e73a472408e0') in 0.001714 seconds 
-  Import took 0.005202 seconds .
+Start importing Assets/ChatBot.cs using Guid(9f3c9c4351d62284489e6f2e1256670d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc9b13079c37d6a730374746365d693a') in 0.001740 seconds 
+  Import took 0.005470 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 119.362330 seconds.
+  Time since last request: 66.516502 seconds.
   path: Assets/ChatBot.cs
   artifactKey: Guid(9f3c9c4351d62284489e6f2e1256670d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ChatBot.cs using Guid(9f3c9c4351d62284489e6f2e1256670d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4543b217ee973c3ddf2e6032dce2d56e') in 0.001554 seconds 
-  Import took 0.004611 seconds .
+Start importing Assets/ChatBot.cs using Guid(9f3c9c4351d62284489e6f2e1256670d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c292a073db8fb7118825bcb0bda9f909') in 0.001553 seconds 
+  Import took 0.004721 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003216 seconds.
+Registered in 0.046863 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.935 seconds
+- Completed reload, in  1.101 seconds
 Domain Reload Profiling:
-	ReloadAssembly (935ms)
-		BeginReloadAssembly (95ms)
+	ReloadAssembly (1102ms)
+		BeginReloadAssembly (115ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (30ms)
-		EndReloadAssembly (785ms)
-			LoadAssemblies (69ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (924ms)
+			LoadAssemblies (79ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (255ms)
+			SetupTypeCache (306ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (39ms)
-			SetupLoadedEditorAssemblies (335ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (392ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (95ms)
-				ProcessInitializeOnLoadAttributes (225ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (5ms)
+				BeforeProcessingInitializeOnLoad (98ms)
+				ProcessInitializeOnLoadAttributes (277ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1986 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 91.3 MB.
 System memory in use after: 91.4 MB.
 
 Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2465.
-Total: 3.152500 ms (FindLiveObjects: 0.193500 ms CreateObjectMapping: 0.067100 ms MarkObjects: 2.869900 ms  DeleteObjects: 0.020900 ms)
+Total: 2.941500 ms (FindLiveObjects: 0.197400 ms CreateObjectMapping: 0.081900 ms MarkObjects: 2.636600 ms  DeleteObjects: 0.024500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 74.620173 seconds.
+  path: Assets/ChatBot.cs
+  artifactKey: Guid(9f3c9c4351d62284489e6f2e1256670d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ChatBot.cs using Guid(9f3c9c4351d62284489e6f2e1256670d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f76705f53372f5a11cb72b1589dee903') in 0.003989 seconds 
+  Import took 0.007523 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002597 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.963 seconds
+Domain Reload Profiling:
+	ReloadAssembly (963ms)
+		BeginReloadAssembly (107ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (803ms)
+			LoadAssemblies (72ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (263ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (341ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (88ms)
+				ProcessInitializeOnLoadAttributes (239ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1986 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.3 MB.
+System memory in use after: 91.4 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2467.
+Total: 3.006000 ms (FindLiveObjects: 0.182800 ms CreateObjectMapping: 0.056900 ms MarkObjects: 2.745800 ms  DeleteObjects: 0.019500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 346.400819 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.004290 seconds 
+  Import took 0.007416 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.572629 seconds.
+  path: Assets/AIAction.cs
+  artifactKey: Guid(24fa0147c7371b943b1ed5bfed115caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIAction.cs using Guid(24fa0147c7371b943b1ed5bfed115caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '000e6c86b18ca2bafc3c3b1c696ffdfd') in 0.001466 seconds 
+  Import took 0.004410 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004278 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.906 seconds
+Domain Reload Profiling:
+	ReloadAssembly (906ms)
+		BeginReloadAssembly (95ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (761ms)
+			LoadAssemblies (67ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (240ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (323ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (82ms)
+				ProcessInitializeOnLoadAttributes (226ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1987 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.4 MB.
+System memory in use after: 91.5 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2470.
+Total: 3.181000 ms (FindLiveObjects: 0.184900 ms CreateObjectMapping: 0.059400 ms MarkObjects: 2.914000 ms  DeleteObjects: 0.021800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -221,28 +359,1313 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002554 seconds.
+Registered in 0.002696 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.915 seconds
+- Completed reload, in  0.978 seconds
 Domain Reload Profiling:
-	ReloadAssembly (915ms)
-		BeginReloadAssembly (95ms)
+	ReloadAssembly (978ms)
+		BeginReloadAssembly (89ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (837ms)
+			LoadAssemblies (70ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (256ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (374ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (112ms)
+				ProcessInitializeOnLoadAttributes (246ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.07 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1987 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.4 MB.
+System memory in use after: 91.5 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2472.
+Total: 3.240000 ms (FindLiveObjects: 0.184500 ms CreateObjectMapping: 0.055300 ms MarkObjects: 2.977400 ms  DeleteObjects: 0.021400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 718.117440 seconds.
+  path: Assets/AIAction.cs
+  artifactKey: Guid(24fa0147c7371b943b1ed5bfed115caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIAction.cs using Guid(24fa0147c7371b943b1ed5bfed115caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec1b4c6a02f6f27131bb3913d69c9391') in 0.003718 seconds 
+  Import took 0.006952 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 43.994235 seconds.
+  path: Assets/LEGO/Tutorials/Pop.aiff
+  artifactKey: Guid(93fbb109633e844259ea828442bda0cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Tutorials/Pop.aiff using Guid(93fbb109633e844259ea828442bda0cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5184a92685ddf130f20649ea5105a660') in 0.082540 seconds 
+  Import took 0.085537 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/LEGO/Tutorials/Tutorials.asset
+  artifactKey: Guid(977fb762f450240fd9006b8153a0f534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Tutorials/Tutorials.asset using Guid(977fb762f450240fd9006b8153a0f534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee4abed5679ac76ce88a7ab4c28f7404') in 0.793651 seconds 
+  Import took 0.803675 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/LEGO/Tutorials/Tutorial Project Settings.asset
+  artifactKey: Guid(7dabdf74df63f64439cf439d3c971095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Tutorials/Tutorial Project Settings.asset using Guid(7dabdf74df63f64439cf439d3c971095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28baa0143395295eb78a3ff7caf1b8e9') in 0.296034 seconds 
+  Import took 0.306004 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/LEGO/Tutorials/Unity.LEGO.Tutorials.asmdef
+  artifactKey: Guid(f70753229dcf0144dbddfb7608d7eea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Tutorials/Unity.LEGO.Tutorials.asmdef using Guid(f70753229dcf0144dbddfb7608d7eea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c2466a52d566c0038f6c3e7ed62607b') in 0.004933 seconds 
+  Import took 0.008252 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/LEGO/Tutorials/WelcomeDialog.asset
+  artifactKey: Guid(c4fddd74b608848c6871b3b0f762ff1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Tutorials/WelcomeDialog.asset using Guid(c4fddd74b608848c6871b3b0f762ff1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Unity.InteractiveTutorials.Criterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs:69)
+Unity.InteractiveTutorials.InstantiatePrefabCriterion:OnValidate () (at C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/InstantiatePrefabCriterion.cs:44)
+
+[C:/Users/jinch/AppData/Local/Temp/139c8761b9d0412458d8904a64730519/Library/PackageCache/com.unity.learn.iet-framework@1.2.3/Editor/Criteria/Criterion.cs line 69]
+
+ -> (artifact id: 'def939a2c38c6d6209b5c7a5b3d982ed') in 0.088734 seconds 
+  Import took 0.096360 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/LEGO/Tutorials/Tutorial Styles.asset
+  artifactKey: Guid(db2f0bb691502ff49a6b838dea16076c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Tutorials/Tutorial Styles.asset using Guid(db2f0bb691502ff49a6b838dea16076c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12e14a55986f36783698c5344fc4d55a') in 0.005317 seconds 
+  Import took 0.008553 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/LEGO/Tutorials/WelcomeDialogArt.png
+  artifactKey: Guid(4c7cbe18ed8044725bafa532fbd5ec8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Tutorials/WelcomeDialogArt.png using Guid(4c7cbe18ed8044725bafa532fbd5ec8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0eef3a4d2355ff59c960b435e8ee473') in 0.080733 seconds 
+  Import took 0.083920 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002485 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.982 seconds
+Domain Reload Profiling:
+	ReloadAssembly (982ms)
+		BeginReloadAssembly (108ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (30ms)
-		EndReloadAssembly (766ms)
-			LoadAssemblies (70ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (821ms)
+			LoadAssemblies (73ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (245ms)
+			SetupTypeCache (260ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (39ms)
-			SetupLoadedEditorAssemblies (328ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (353ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (90ms)
+				ProcessInitializeOnLoadAttributes (248ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1987 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.0 MB.
+System memory in use after: 96.1 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2486.
+Total: 2.682800 ms (FindLiveObjects: 0.175600 ms CreateObjectMapping: 0.065600 ms MarkObjects: 2.422900 ms  DeleteObjects: 0.017400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002822 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.988 seconds
+Domain Reload Profiling:
+	ReloadAssembly (988ms)
+		BeginReloadAssembly (98ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (830ms)
+			LoadAssemblies (73ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (272ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (354ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (91ms)
+				ProcessInitializeOnLoadAttributes (247ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1987 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.1 MB.
+System memory in use after: 96.2 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2488.
+Total: 2.887300 ms (FindLiveObjects: 0.167900 ms CreateObjectMapping: 0.065200 ms MarkObjects: 2.634300 ms  DeleteObjects: 0.018400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002637 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.924 seconds
+Domain Reload Profiling:
+	ReloadAssembly (924ms)
+		BeginReloadAssembly (89ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (782ms)
+			LoadAssemblies (77ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (249ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (329ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
@@ -253,73 +1676,16 @@ Domain Reload Profiling:
 				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1986 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91.4 MB.
-System memory in use after: 91.5 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2467.
-Total: 5.280200 ms (FindLiveObjects: 0.347800 ms CreateObjectMapping: 0.231900 ms MarkObjects: 4.656800 ms  DeleteObjects: 0.041900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002844 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.911 seconds
-Domain Reload Profiling:
-	ReloadAssembly (911ms)
-		BeginReloadAssembly (95ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (28ms)
-		EndReloadAssembly (765ms)
-			LoadAssemblies (67ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (226ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (353ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (105ms)
-				ProcessInitializeOnLoadAttributes (234ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1986 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91.4 MB.
-System memory in use after: 91.5 MB.
+Unloading 1987 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.1 MB.
+System memory in use after: 96.2 MB.
 
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2469.
-Total: 2.598000 ms (FindLiveObjects: 0.175900 ms CreateObjectMapping: 0.072800 ms MarkObjects: 2.316700 ms  DeleteObjects: 0.031500 ms)
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2490.
+Total: 3.093700 ms (FindLiveObjects: 0.186000 ms CreateObjectMapping: 0.061900 ms MarkObjects: 2.828100 ms  DeleteObjects: 0.016400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -335,105 +1701,48 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003906 seconds.
+Registered in 0.003272 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.943 seconds
+- Completed reload, in  1.027 seconds
 Domain Reload Profiling:
-	ReloadAssembly (943ms)
-		BeginReloadAssembly (96ms)
+	ReloadAssembly (1028ms)
+		BeginReloadAssembly (94ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (28ms)
-		EndReloadAssembly (797ms)
-			LoadAssemblies (70ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (872ms)
+			LoadAssemblies (74ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (256ms)
+			SetupTypeCache (281ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (46ms)
-			SetupLoadedEditorAssemblies (329ms)
+			SetupLoadedEditorAssemblies (369ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (86ms)
-				ProcessInitializeOnLoadAttributes (229ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
+				BeforeProcessingInitializeOnLoad (94ms)
+				ProcessInitializeOnLoadAttributes (259ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
 				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1986 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91.4 MB.
-System memory in use after: 91.5 MB.
+Unloading 1987 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.1 MB.
+System memory in use after: 96.3 MB.
 
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2471.
-Total: 3.280100 ms (FindLiveObjects: 0.181500 ms CreateObjectMapping: 0.058900 ms MarkObjects: 3.008200 ms  DeleteObjects: 0.030300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002656 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.876 seconds
-Domain Reload Profiling:
-	ReloadAssembly (876ms)
-		BeginReloadAssembly (91ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (734ms)
-			LoadAssemblies (68ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (235ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (310ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (81ms)
-				ProcessInitializeOnLoadAttributes (215ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1986 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91.3 MB.
-System memory in use after: 91.4 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2473.
-Total: 3.350500 ms (FindLiveObjects: 0.171300 ms CreateObjectMapping: 0.056300 ms MarkObjects: 3.098300 ms  DeleteObjects: 0.023700 ms)
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2492.
+Total: 3.048400 ms (FindLiveObjects: 0.387600 ms CreateObjectMapping: 0.087700 ms MarkObjects: 2.553700 ms  DeleteObjects: 0.018300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
