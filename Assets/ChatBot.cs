@@ -9,18 +9,16 @@ using UnityEngine.Networking;
 
 public class ChatBot : MonoBehaviour
 {
-    // // Start is called before the first frame update
-    // void Start()
-    // {
+    public GameObject fruit;
+    public GameObject player;
+
     protected DictationRecognizer dictationRecognizer;
-    // }
+
     [SerializeField]
     private Text m_Hypotheses;
 
     [SerializeField]
     private Text m_Recognitions;
-
-    
 
     // Speech Keyword recognizer 
     // private KeywordRecognizer keywordRecognizer;
@@ -148,5 +146,14 @@ public class ChatBot : MonoBehaviour
             // Or retrieve results as binary data
             byte[] results = www.downloadHandler.data;
         }
+    }
+
+    private void PutFruit() 
+    {
+        GameObject instance_object = Instantiate(fruit);
+        // instance_object.name = "Fruit";
+        Vector3 offset = new Vector3(0, 10, 2);
+        // instance_object.name = "Fruit";
+        instance_object.transform.position = player.transform.position + offset;
     }
 }
