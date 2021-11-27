@@ -14,20 +14,22 @@ public class AIAction : MonoBehaviour
     public GameObject fruit;
 
     private int min_distance;
+    private int min_spped;
     private Vector3 last_position;
 
     // test
-    int test;
+    // int test;
 
     // Start is called before the first frame update
     void Start()
     {
         this.status = 0;
         this.min_distance = 10;
+        this.min_spped = 2;
         this.last_position = new Vector3();
 
-        test = 0;
-        PutFruit();
+        // test = 0;
+        // PutFruit();
     }
 
 
@@ -69,7 +71,7 @@ public class AIAction : MonoBehaviour
 
         Debug.Log("player's distance:" + distance);
         if (distance > this.min_distance) {
-            current_object.transform.Translate(( player.transform.position - current_object.transform.position).normalized * Time.deltaTime);
+            current_object.transform.Translate(( player.transform.position - current_object.transform.position).normalized * Time.deltaTime * min_spped);
             if (Vector3.Distance(this.last_position, current_object.transform.position) < 0.8) {
                 current_object.transform.Translate( Vector3.up * Time.deltaTime, Space.World);
             }
@@ -79,12 +81,12 @@ public class AIAction : MonoBehaviour
         this.last_position = current_object.transform.position;
     }
 
-    private void PutFruit() 
-    {
-        Vector3 offset = new Vector3(0, 10, 2);
-        // instance_object.name = "Fruit";
-        Vector3 position = player.transform.position + offset;
+    // private void PutFruit() 
+    // {
+    //     Vector3 offset = new Vector3(0, 10, 2);
+    //     // instance_object.name = "Fruit";
+    //     Vector3 position = player.transform.position + offset;
 
-        Instantiate(fruit, position, Quaternion.identity);
-    }
+    //     Instantiate(fruit, position, Quaternion.identity);
+    // }
 }

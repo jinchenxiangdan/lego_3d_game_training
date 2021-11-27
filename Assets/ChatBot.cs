@@ -9,8 +9,8 @@ using UnityEngine.Networking;
 
 public class ChatBot : MonoBehaviour
 {
-    public GameObject fruit;
-    public GameObject player;
+    // public GameObject fruit;
+    public GameObject talk_board;  // self object
 
     protected DictationRecognizer dictationRecognizer;
 
@@ -30,6 +30,7 @@ public class ChatBot : MonoBehaviour
     // for SPERR_SPEECH_PRIVACY_POLICY_NOT_ACCEPTED (0x80045509).
     private DictationRecognizer m_DictationRecognizer;
 
+    public GameObject chat;
     void Start()
     {
         // m_DictationRecognizer = new DictationRecognizer();
@@ -61,6 +62,8 @@ public class ChatBot : MonoBehaviour
         // StartCoroutine(CallChatbotServer("help e"));
 
         StartDictationEngine();
+        
+        // Debug.Log(chat.GetComponent<SpeakAction>().m_SpeechBubbleInfos);
     }
 
     void OnApplicationQuit()
@@ -148,12 +151,17 @@ public class ChatBot : MonoBehaviour
         }
     }
 
-    private void PutFruit() 
+    // private void PutFruit() 
+    // {
+    //     GameObject instance_object = Instantiate(fruit);
+    //     // instance_object.name = "Fruit";
+    //     Vector3 offset = new Vector3(0, 10, 2);
+    //     // instance_object.name = "Fruit";
+    //     instance_object.transform.position = player.transform.position + offset;
+    // }
+
+    void UpdateDiaglog()
     {
-        GameObject instance_object = Instantiate(fruit);
-        // instance_object.name = "Fruit";
-        Vector3 offset = new Vector3(0, 10, 2);
-        // instance_object.name = "Fruit";
-        instance_object.transform.position = player.transform.position + offset;
+
     }
 }

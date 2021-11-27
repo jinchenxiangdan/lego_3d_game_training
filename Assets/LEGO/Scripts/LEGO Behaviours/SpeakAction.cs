@@ -1,13 +1,21 @@
+using System.Collections;
 using System.Collections.Generic;
 using Unity.LEGO.Behaviours.Actions;
 using Unity.LEGO.UI;
 using UnityEngine;
 
+using UnityEngine.Windows.Speech;
+using UnityEngine.Networking;
+
 namespace Unity.LEGO.Behaviours
 {
     public class SpeakAction : RepeatableAction
     {
+        protected DictationRecognizer dictationRecognizer;
         public const int MaxCharactersPerSpeechBubble = 60;
+        public GameObject currentBrick;
+
+        private string feedBack;
 
         [SerializeField]
         List<SpeechBubblePrompt.BubbleInfo> m_SpeechBubbleInfos = new List<SpeechBubblePrompt.BubbleInfo>
@@ -41,6 +49,10 @@ namespace Unity.LEGO.Behaviours
                     }
                 }
             }
+
+
+            StartDictationEngine();
+            feedBack = "";
         }
 
         protected void Update()
@@ -136,5 +148,117 @@ namespace Unity.LEGO.Behaviours
                 UpdatePrompt(false);
             }
         }
+
+        //
+
+    void OnApplicationQuit()
+    {
+        CloseDictationEngine();
+    }
+
+    private void DictationRecognizer_OnDictationHypothesis(string text)
+    {
+        Debug.Log("Dictation hypothesis: " + text);
+    }
+    private void DictationRecognizer_OnDictationComplete(DictationCompletionCause completionCause)
+    {
+        switch (completionCause)
+        {
+            case DictationCompletionCause.TimeoutExceeded:
+            case DictationCompletionCause.PauseLimitExceeded:
+            case DictationCompletionCause.Canceled:
+            case DictationCompletionCause.Complete:
+                // Restart required
+                CloseDictationEngine();
+                StartDictationEngine();
+                break;
+            case DictationCompletionCause.UnknownError:
+            case DictationCompletionCause.AudioQualityFailure:
+            case DictationCompletionCause.MicrophoneUnavailable:
+            case DictationCompletionCause.NetworkFailure:
+                // Error
+                CloseDictationEngine();
+                break;
+        }
+    }
+    private void DictationRecognizer_OnDictationResult(string text, ConfidenceLevel confidence)
+    {
+        Debug.Log("Dictation result: " + text);
+
+        // connect chatbot server
+        // reply would be save in feedBack
+        StartCoroutine(CallChatbotServer(text));
+
+        text = feedBack;
+
+
+
+
+        // display feedback
+        if (m_Active == true) {
+            m_SpeechBubbleInfos.Add( new SpeechBubblePrompt.BubbleInfo { Text = text, Type = SpeechBubblePrompt.Type.Talk });
+        } else {
+            Debug.Log("before: " + m_SpeechBubbleInfos);
+            m_SpeechBubbleInfos.Clear();
+            m_SpeechBubbleInfos = new List<SpeechBubblePrompt.BubbleInfo>{new SpeechBubblePrompt.BubbleInfo { Text = text, Type = SpeechBubblePrompt.Type.Talk }};
+            SetupPrompt();
+            m_Active = true;
+            Debug.Log("after: " + m_SpeechBubbleInfos);
+        }
+        
+        
+    }
+    private void DictationRecognizer_OnDictationError(string error, int hresult)
+    {
+        Debug.Log("Dictation error: " + error);
+    }
+
+    private void CloseDictationEngine()
+    {
+        if (dictationRecognizer != null)
+        {
+            // dictationRecognizer.DictationHypothesis -= DictationRecognizer_OnDictationHypothesis;
+            dictationRecognizer.DictationComplete -= DictationRecognizer_OnDictationComplete;
+            dictationRecognizer.DictationResult -= DictationRecognizer_OnDictationResult;
+            // dictationRecognizer.DictationError -= DictationRecognizer_OnDictationError;
+            if (dictationRecognizer.Status == SpeechSystemStatus.Running)
+            {
+                dictationRecognizer.Stop();
+            }
+            dictationRecognizer.Dispose();
+        }
+    }
+
+    private void StartDictationEngine()
+    {
+        dictationRecognizer = new DictationRecognizer();
+        // // dictationRecognizer.DictationHypothesis += DictationRecognizer_OnDictationHypothesis;
+
+        dictationRecognizer.DictationResult += DictationRecognizer_OnDictationResult;
+        dictationRecognizer.DictationComplete += DictationRecognizer_OnDictationComplete;
+        // dictationRecognizer.DictationError += DictationRecognizer_OnDictationError;
+        dictationRecognizer.Start();
+    }
+
+    IEnumerator CallChatbotServer(string input)
+    {
+        string chatbot_server_url = "http://127.0.0.1:8000/chat/c/api/";
+        string target_url = chatbot_server_url + $"?input={input}";
+        Debug.Log($"asking: {target_url}...");
+        UnityWebRequest www = UnityWebRequest.Get(target_url);
+        yield return www.SendWebRequest();
+ 
+        if (www.result != UnityWebRequest.Result.Success) {
+            Debug.Log(www.error);
+            feedBack = "Cannot connect to Chatser...";
+        }
+        else {
+            // Show results as text
+            feedBack = www.downloadHandler.text;
+            Debug.Log(feedBack);
+        }
+    }
+
+
     }
 }
