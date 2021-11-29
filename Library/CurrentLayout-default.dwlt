@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 2293.3335
     height: 869.3334
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Scene
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 680, y: 342}
   m_MaxSize: {x: 12005, y: 8042}
   vertical: 0
-  controlID: 73
+  controlID: 102
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -59,7 +59,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
+  m_Name: InspectorWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -227,7 +227,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 342}
   m_MaxSize: {x: 8003, y: 8042}
   vertical: 1
-  controlID: 74
+  controlID: 103
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -252,7 +252,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 75
+  controlID: 104
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -302,10 +302,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1979
-    y: 75
-    width: 275
-    height: 1260
+    x: 1510
+    y: 72.66667
+    width: 781
+    height: 798
   m_ViewDataDictionary: {fileID: 0}
 --- !u!114 &13
 MonoBehaviour:
@@ -355,9 +355,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 611
-    width: 1137
-    height: 269
+    y: 596.6667
+    width: 1509
+    height: 274
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -372,22 +372,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/LEGO/Scripts/LEGO Behaviours
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/LEGO/Scripts/LEGO Behaviours
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: /Users/zhenxiangjin/Projects/lego_3d_game_training
+  m_LastProjectPath: D:\Projects\lego_3d_game_training
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: d2240500
-    m_LastClickedID: 337106
-    m_ExpandedIDs: 000000007a9301007c9301007e9301008093010082930100
+    scrollPos: {x: 0, y: 322}
+    m_SelectedIDs: 06980100
+    m_LastClickedID: 104454
+    m_ExpandedIDs: 000000007a9301007c9301007e930100809301008293010000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -440,9 +440,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 8426ffff
-    m_LastClickedInstanceID: -55676
-    m_HadKeyboardFocusLastEvent: 1
+    m_SelectedInstanceIDs: b4440000
+    m_LastClickedInstanceID: 17588
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -538,9 +538,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: b6430000
       m_LastClickedID: 0
-      m_ExpandedIDs: 52fbffff
+      m_ExpandedIDs: 52fbffff86450000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -601,9 +601,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 231.96606, y: 2.8430743, z: -51.51377}
+    m_Target: {x: 211.5513, y: -8.004522, z: -52.305737}
     speed: 2
-    m_Value: {x: 231.96606, y: 2.8430743, z: -51.51377}
+    m_Value: {x: 211.5513, y: -8.004522, z: -52.305737}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -650,13 +650,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.14711215, y: 0.7668009, z: -0.18948418, w: -0.5953957}
+    m_Target: {x: -0.10742041, y: 0.7663144, z: -0.13292816, w: -0.619339}
     speed: 2
-    m_Value: {x: -0.14711025, y: 0.766791, z: -0.18948174, w: -0.595388}
+    m_Value: {x: -0.10741893, y: 0.7663039, z: -0.13292634, w: -0.6193305}
   m_Size:
-    m_Target: 11.234617
+    m_Target: 23.837322
     speed: 2
-    m_Value: 11.234617
+    m_Value: 23.837322
   m_Ortho:
     m_Target: 0
     speed: 2

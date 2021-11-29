@@ -7,13 +7,15 @@ using UnityEngine;
 using UnityEngine.Windows.Speech;
 using UnityEngine.Networking;
 
+
+// using AIAction;
 namespace Unity.LEGO.Behaviours
 {
     public class SpeakAction : RepeatableAction
     {
         protected DictationRecognizer dictationRecognizer;
         public const int MaxCharactersPerSpeechBubble = 60;
-        public GameObject currentBrick;
+        
 
         private string feedBack;
 
@@ -53,6 +55,14 @@ namespace Unity.LEGO.Behaviours
 
             StartDictationEngine();
             feedBack = "";
+
+            // // get move board
+            GameObject gos;
+            gos = GameObject.Find("char_move");
+            // currentBrick = gos[0];
+            Debug.Log("Brick is" + gos);
+            // Debug.Log("Brick name is" + currentBrick.name);
+            Debug.Log("Brick status is" + gos.GetComponent<AIAction>().status);
         }
 
         protected void Update()
@@ -185,9 +195,21 @@ namespace Unity.LEGO.Behaviours
     {
         Debug.Log("Dictation result: " + text);
 
+        // check command
+        string command = text.Split(' ')[0];
+        if (command == "stay") {
+            GameObject.Find("char_move").GetComponent<AIAction>().status = 0;
+            feedBack = "Copy";
+        } else if (command == "come") {
+            GameObject.Find("char_move").GetComponent<AIAction>().status = 1;
+            feedBack = "Yes, sir";
+        } else {
+            StartCoroutine(CallChatbotServer(text));
+        }
+
         // connect chatbot server
         // reply would be save in feedBack
-        StartCoroutine(CallChatbotServer(text));
+        
 
         text = feedBack;
 

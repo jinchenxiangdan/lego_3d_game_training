@@ -145,7 +145,6 @@ MonoBehaviour:
   status: 0
   player: {fileID: 1782090120}
   current_object: {fileID: 1146057640}
-  fruit: {fileID: 2934640253008320437, guid: 37c756c1cd2f44b739bcd32b884951b8, type: 3}
 --- !u!1001 &4625583
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2353,7 +2352,6 @@ MonoBehaviour:
   status: 0
   player: {fileID: 1782090120}
   current_object: {fileID: 1146057640}
-  fruit: {fileID: 2934640253008320437, guid: 37c756c1cd2f44b739bcd32b884951b8, type: 3}
 --- !u!114 &151576073 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2532676059729545517, guid: 64d1d089ce11e4eadaa32af6d2e3d1fd,
@@ -5790,7 +5788,6 @@ MonoBehaviour:
   status: 0
   player: {fileID: 1782090120}
   current_object: {fileID: 1146057640}
-  fruit: {fileID: 2934640253008320437, guid: 37c756c1cd2f44b739bcd32b884951b8, type: 3}
 --- !u!1001 &296453557
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6343,7 +6340,6 @@ MonoBehaviour:
   status: 0
   player: {fileID: 1782090120}
   current_object: {fileID: 1146057640}
-  fruit: {fileID: 2934640253008320437, guid: 37c756c1cd2f44b739bcd32b884951b8, type: 3}
 --- !u!1 &326485486 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 723988552797509748, guid: e34f65b5b181cba41b8d90f80c2ed876,
@@ -6365,7 +6361,6 @@ MonoBehaviour:
   status: 0
   player: {fileID: 1782090120}
   current_object: {fileID: 1146057640}
-  fruit: {fileID: 2934640253008320437, guid: 37c756c1cd2f44b739bcd32b884951b8, type: 3}
 --- !u!114 &349533921 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8759935220144904151, guid: e34f65b5b181cba41b8d90f80c2ed876,
@@ -7226,7 +7221,6 @@ MonoBehaviour:
   status: 0
   player: {fileID: 1782090120}
   current_object: {fileID: 1146057640}
-  fruit: {fileID: 2934640253008320437, guid: 37c756c1cd2f44b739bcd32b884951b8, type: 3}
 --- !u!1 &395901193
 GameObject:
   m_ObjectHideFlags: 0
@@ -7885,7 +7879,6 @@ MonoBehaviour:
   status: 0
   player: {fileID: 1782090120}
   current_object: {fileID: 1146057640}
-  fruit: {fileID: 2934640253008320437, guid: 37c756c1cd2f44b739bcd32b884951b8, type: 3}
 --- !u!114 &423133676 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4613715395505729312, guid: e34f65b5b181cba41b8d90f80c2ed876,
@@ -7931,7 +7924,6 @@ MonoBehaviour:
   status: 0
   player: {fileID: 1782090120}
   current_object: {fileID: 1146057640}
-  fruit: {fileID: 2934640253008320437, guid: 37c756c1cd2f44b739bcd32b884951b8, type: 3}
 --- !u!1001 &451494194
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8495,7 +8487,6 @@ MonoBehaviour:
   status: 0
   player: {fileID: 1782090120}
   current_object: {fileID: 1146057640}
-  fruit: {fileID: 2934640253008320437, guid: 37c756c1cd2f44b739bcd32b884951b8, type: 3}
 --- !u!1001 &498807737
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8642,7 +8633,6 @@ MonoBehaviour:
   status: 0
   player: {fileID: 1782090120}
   current_object: {fileID: 1146057640}
-  fruit: {fileID: 2934640253008320437, guid: 37c756c1cd2f44b739bcd32b884951b8, type: 3}
 --- !u!1001 &501418793
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10705,7 +10695,6 @@ MonoBehaviour:
   status: 0
   player: {fileID: 1782090120}
   current_object: {fileID: 1146057640}
-  fruit: {fileID: 2934640253008320437, guid: 37c756c1cd2f44b739bcd32b884951b8, type: 3}
 --- !u!114 &615210961 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5288565959558188129, guid: e34f65b5b181cba41b8d90f80c2ed876,
@@ -10955,7 +10944,6 @@ MonoBehaviour:
   status: 0
   player: {fileID: 1782090120}
   current_object: {fileID: 1146057640}
-  fruit: {fileID: 2934640253008320437, guid: 37c756c1cd2f44b739bcd32b884951b8, type: 3}
 --- !u!1 &684285398 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5952549877573738461, guid: d39f04291e3b341f78bf4cfa451accd7,
@@ -10969,7 +10957,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 684285398}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 24fa0147c7371b943b1ed5bfed115caa, type: 3}
   m_Name: 
@@ -10977,7 +10965,6 @@ MonoBehaviour:
   status: 0
   player: {fileID: 1782090120}
   current_object: {fileID: 1146057640}
-  fruit: {fileID: 2934640253008320437, guid: 37c756c1cd2f44b739bcd32b884951b8, type: 3}
 --- !u!1001 &686899599
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13208,6 +13195,16 @@ PrefabInstance:
         type: 3}
       propertyPath: colliding
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2931858118791894311, guid: e34f65b5b181cba41b8d90f80c2ed876,
+        type: 3}
+      propertyPath: m_Name
+      value: char_move
+      objectReference: {fileID: 0}
+    - target: {fileID: 2931858118791894311, guid: e34f65b5b181cba41b8d90f80c2ed876,
+        type: 3}
+      propertyPath: m_TagString
+      value: AIStaticBoard
       objectReference: {fileID: 0}
     - target: {fileID: 2961934990217567552, guid: e34f65b5b181cba41b8d90f80c2ed876,
         type: 3}
@@ -18435,7 +18432,6 @@ MonoBehaviour:
   status: 0
   player: {fileID: 1782090120}
   current_object: {fileID: 1146057640}
-  fruit: {fileID: 2934640253008320437, guid: 37c756c1cd2f44b739bcd32b884951b8, type: 3}
 --- !u!1001 &826640153
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18997,7 +18993,6 @@ MonoBehaviour:
   status: 0
   player: {fileID: 1782090120}
   current_object: {fileID: 1146057640}
-  fruit: {fileID: 2934640253008320437, guid: 37c756c1cd2f44b739bcd32b884951b8, type: 3}
 --- !u!1001 &851000466
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20985,7 +20980,6 @@ MonoBehaviour:
   status: 0
   player: {fileID: 1782090120}
   current_object: {fileID: 1146057640}
-  fruit: {fileID: 2934640253008320437, guid: 37c756c1cd2f44b739bcd32b884951b8, type: 3}
 --- !u!1001 &999460856
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24074,7 +24068,6 @@ MonoBehaviour:
   status: 0
   player: {fileID: 1782090120}
   current_object: {fileID: 1146057640}
-  fruit: {fileID: 2934640253008320437, guid: 37c756c1cd2f44b739bcd32b884951b8, type: 3}
 --- !u!1001 &1099035229
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -32145,7 +32138,6 @@ MonoBehaviour:
   status: 0
   player: {fileID: 1782090120}
   current_object: {fileID: 1146057640}
-  fruit: {fileID: 2934640253008320437, guid: 37c756c1cd2f44b739bcd32b884951b8, type: 3}
 --- !u!114 &1342953166 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3319376821749496953, guid: e34f65b5b181cba41b8d90f80c2ed876,
@@ -37037,7 +37029,6 @@ MonoBehaviour:
   status: 0
   player: {fileID: 1782090120}
   current_object: {fileID: 1146057640}
-  fruit: {fileID: 2934640253008320437, guid: 37c756c1cd2f44b739bcd32b884951b8, type: 3}
 --- !u!1001 &1495749553
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -37326,22 +37317,22 @@ PrefabInstance:
     - target: {fileID: 8798865682151034563, guid: 7760cce19732e194e9bf2b10175a5eee,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.9638459
+      value: 0.96384597
       objectReference: {fileID: 0}
     - target: {fileID: 8798865682151034563, guid: 7760cce19732e194e9bf2b10175a5eee,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.09540819
+      value: -0.0954082
       objectReference: {fileID: 0}
     - target: {fileID: 8798865682151034563, guid: 7760cce19732e194e9bf2b10175a5eee,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.22942147
+      value: -0.22942144
       objectReference: {fileID: 0}
     - target: {fileID: 8798865682151034563, guid: 7760cce19732e194e9bf2b10175a5eee,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.096250445
+      value: 0.09625043
       objectReference: {fileID: 0}
     - target: {fileID: 8798865682256676962, guid: 7760cce19732e194e9bf2b10175a5eee,
         type: 3}
@@ -37446,12 +37437,12 @@ PrefabInstance:
     - target: {fileID: 8798865682888271160, guid: 7760cce19732e194e9bf2b10175a5eee,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.0954082
+      value: -0.095408194
       objectReference: {fileID: 0}
     - target: {fileID: 8798865682888271160, guid: 7760cce19732e194e9bf2b10175a5eee,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.22942144
+      value: -0.2294215
       objectReference: {fileID: 0}
     - target: {fileID: 8798865682888271160, guid: 7760cce19732e194e9bf2b10175a5eee,
         type: 3}
@@ -38706,6 +38697,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4506487625966563833, guid: d39f04291e3b341f78bf4cfa451accd7,
+        type: 3}
+      propertyPath: m_Repeat
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5420777645310162659, guid: d39f04291e3b341f78bf4cfa451accd7,
         type: 3}
       propertyPath: m_IsActive
@@ -38715,6 +38711,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Speak
+      objectReference: {fileID: 0}
+    - target: {fileID: 5952549877573738461, guid: d39f04291e3b341f78bf4cfa451accd7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 7291596708967957692, guid: d39f04291e3b341f78bf4cfa451accd7,
         type: 3}
@@ -38854,7 +38855,6 @@ MonoBehaviour:
   status: 0
   player: {fileID: 1782090120}
   current_object: {fileID: 1146057640}
-  fruit: {fileID: 2934640253008320437, guid: 37c756c1cd2f44b739bcd32b884951b8, type: 3}
 --- !u!1001 &1574869112
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -41161,7 +41161,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1687258581}
-  m_LocalRotation: {x: -0.05086865, y: 0.92924124, z: -0.13976051, w: -0.33821607}
+  m_LocalRotation: {x: -0.050868645, y: 0.92924124, z: -0.13976051, w: -0.3382161}
   m_LocalPosition: {x: 256.92343, y: 7.250656, z: -31.870121}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -42395,7 +42395,6 @@ MonoBehaviour:
   status: 0
   player: {fileID: 1782090120}
   current_object: {fileID: 1146057640}
-  fruit: {fileID: 2934640253008320437, guid: 37c756c1cd2f44b739bcd32b884951b8, type: 3}
 --- !u!1 &1781975463 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5409083927158396333, guid: e34f65b5b181cba41b8d90f80c2ed876,
@@ -42417,7 +42416,6 @@ MonoBehaviour:
   status: 0
   player: {fileID: 1782090120}
   current_object: {fileID: 1146057640}
-  fruit: {fileID: 2934640253008320437, guid: 37c756c1cd2f44b739bcd32b884951b8, type: 3}
 --- !u!1001 &1782090118
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -43918,7 +43916,6 @@ MonoBehaviour:
   status: 0
   player: {fileID: 1782090120}
   current_object: {fileID: 1146057640}
-  fruit: {fileID: 2934640253008320437, guid: 37c756c1cd2f44b739bcd32b884951b8, type: 3}
 --- !u!1 &1847133278
 GameObject:
   m_ObjectHideFlags: 0
@@ -45045,7 +45042,6 @@ MonoBehaviour:
   status: 0
   player: {fileID: 1782090120}
   current_object: {fileID: 1146057640}
-  fruit: {fileID: 2934640253008320437, guid: 37c756c1cd2f44b739bcd32b884951b8, type: 3}
 --- !u!1 &1902127334 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4452204102140643530, guid: e34f65b5b181cba41b8d90f80c2ed876,
@@ -47033,7 +47029,6 @@ MonoBehaviour:
   status: 0
   player: {fileID: 1782090120}
   current_object: {fileID: 2013572052}
-  fruit: {fileID: 0}
 --- !u!114 &2015242341 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1090493524783639597, guid: d39f04291e3b341f78bf4cfa451accd7,
@@ -47067,7 +47062,6 @@ MonoBehaviour:
   status: 0
   player: {fileID: 1782090120}
   current_object: {fileID: 1146057640}
-  fruit: {fileID: 2934640253008320437, guid: 37c756c1cd2f44b739bcd32b884951b8, type: 3}
 --- !u!1001 &2033134727
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -47945,7 +47939,6 @@ MonoBehaviour:
   status: 0
   player: {fileID: 1782090120}
   current_object: {fileID: 1146057640}
-  fruit: {fileID: 2934640253008320437, guid: 37c756c1cd2f44b739bcd32b884951b8, type: 3}
 --- !u!1001 &2058541218
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -48592,7 +48585,6 @@ MonoBehaviour:
   status: 0
   player: {fileID: 1782090120}
   current_object: {fileID: 1146057640}
-  fruit: {fileID: 2934640253008320437, guid: 37c756c1cd2f44b739bcd32b884951b8, type: 3}
 --- !u!1001 &2124577677
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -51321,7 +51313,6 @@ MonoBehaviour:
   status: 0
   player: {fileID: 1782090120}
   current_object: {fileID: 1146057640}
-  fruit: {fileID: 2934640253008320437, guid: 37c756c1cd2f44b739bcd32b884951b8, type: 3}
 --- !u!65 &915832958335290007
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -55028,7 +55019,6 @@ MonoBehaviour:
   status: 0
   player: {fileID: 1782090120}
   current_object: {fileID: 0}
-  fruit: {fileID: 0}
 --- !u!33 &1887719031584503545
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -56677,7 +56667,6 @@ MonoBehaviour:
   status: 0
   player: {fileID: 1782090120}
   current_object: {fileID: 1146057640}
-  fruit: {fileID: 2934640253008320437, guid: 37c756c1cd2f44b739bcd32b884951b8, type: 3}
 --- !u!1 &2516631388690013720
 GameObject:
   m_ObjectHideFlags: 0
@@ -57201,7 +57190,6 @@ MonoBehaviour:
   status: 0
   player: {fileID: 1782090120}
   current_object: {fileID: 1146057640}
-  fruit: {fileID: 2934640253008320437, guid: 37c756c1cd2f44b739bcd32b884951b8, type: 3}
 --- !u!1 &2710054865821209637
 GameObject:
   m_ObjectHideFlags: 0
@@ -58016,7 +58004,6 @@ MonoBehaviour:
   status: 0
   player: {fileID: 1782090120}
   current_object: {fileID: 1146057640}
-  fruit: {fileID: 2934640253008320437, guid: 37c756c1cd2f44b739bcd32b884951b8, type: 3}
 --- !u!33 &3059252090053131672
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -58896,7 +58883,6 @@ MonoBehaviour:
   status: 0
   player: {fileID: 1782090120}
   current_object: {fileID: 1146057640}
-  fruit: {fileID: 2934640253008320437, guid: 37c756c1cd2f44b739bcd32b884951b8, type: 3}
 --- !u!4 &3368038774177777340
 Transform:
   m_ObjectHideFlags: 0
@@ -59130,7 +59116,6 @@ MonoBehaviour:
   status: 0
   player: {fileID: 1782090120}
   current_object: {fileID: 1146057640}
-  fruit: {fileID: 2934640253008320437, guid: 37c756c1cd2f44b739bcd32b884951b8, type: 3}
 --- !u!4 &3457006470013397173
 Transform:
   m_ObjectHideFlags: 0
@@ -62880,7 +62865,6 @@ MonoBehaviour:
   status: 0
   player: {fileID: 1782090120}
   current_object: {fileID: 1146057640}
-  fruit: {fileID: 2934640253008320437, guid: 37c756c1cd2f44b739bcd32b884951b8, type: 3}
 --- !u!4 &4480325221451602123
 Transform:
   m_ObjectHideFlags: 0
@@ -67449,7 +67433,6 @@ MonoBehaviour:
   status: 0
   player: {fileID: 1782090120}
   current_object: {fileID: 1146057640}
-  fruit: {fileID: 2934640253008320437, guid: 37c756c1cd2f44b739bcd32b884951b8, type: 3}
 --- !u!65 &5651730988711772977
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -68825,7 +68808,6 @@ MonoBehaviour:
   status: 0
   player: {fileID: 1782090120}
   current_object: {fileID: 1146057640}
-  fruit: {fileID: 2934640253008320437, guid: 37c756c1cd2f44b739bcd32b884951b8, type: 3}
 --- !u!1 &6161350289241891171
 GameObject:
   m_ObjectHideFlags: 0
@@ -68962,7 +68944,6 @@ MonoBehaviour:
   status: 0
   player: {fileID: 1782090120}
   current_object: {fileID: 1146057640}
-  fruit: {fileID: 2934640253008320437, guid: 37c756c1cd2f44b739bcd32b884951b8, type: 3}
 --- !u!4 &6214183120760604542
 Transform:
   m_ObjectHideFlags: 1
@@ -71335,7 +71316,6 @@ MonoBehaviour:
   status: 0
   player: {fileID: 1782090120}
   current_object: {fileID: 1146057640}
-  fruit: {fileID: 2934640253008320437, guid: 37c756c1cd2f44b739bcd32b884951b8, type: 3}
 --- !u!4 &7017781220242906033
 Transform:
   m_ObjectHideFlags: 0
@@ -72762,7 +72742,6 @@ MonoBehaviour:
   status: 0
   player: {fileID: 1782090120}
   current_object: {fileID: 1146057640}
-  fruit: {fileID: 2934640253008320437, guid: 37c756c1cd2f44b739bcd32b884951b8, type: 3}
 --- !u!65 &7619444819785489096
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -74673,7 +74652,6 @@ MonoBehaviour:
   status: 0
   player: {fileID: 1782090120}
   current_object: {fileID: 1146057640}
-  fruit: {fileID: 2934640253008320437, guid: 37c756c1cd2f44b739bcd32b884951b8, type: 3}
 --- !u!114 &8292949760629963760
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -76356,7 +76334,6 @@ MonoBehaviour:
   status: 0
   player: {fileID: 1782090120}
   current_object: {fileID: 1146057640}
-  fruit: {fileID: 2934640253008320437, guid: 37c756c1cd2f44b739bcd32b884951b8, type: 3}
 --- !u!1 &8959123564934467261
 GameObject:
   m_ObjectHideFlags: 0
